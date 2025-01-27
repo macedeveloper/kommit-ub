@@ -19,8 +19,7 @@ h1{
 .texttext{
     margin: 1% auto;
     padding: 2%;
-    max-width: 50%;
-    box-shadow:0 5px 10px rgba(16, 0, 53, 0.2),0 15px 40px rgba(0,0,0,.05)
+    max-width: 70%;
 }
 
 audio{
@@ -29,22 +28,32 @@ audio{
 
 
 
-/* ZE BUTTON!!!!!!!! */
-button{
+/* ZE NAVI!!!!!!!!!!!!!!!!!! */
+.buttonnavi{
     font-family:'Ubuntu', 'Calibri', sans-serif;
     background-color: #444444;
     padding: 5px 17px 5px 17px;
     color: #ffffff;
-    margin: 20px 15px 20px 15px;
+    margin-left: 10% auto;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: large;
 }
-button:hover{
+.buttonnavi:hover{
     background-color: #886644;
 }
-/* ZE BUTTON!!!!!!!! */
+
+.navilinks{
+    color: #886644;
+}
+.navilinks:hover{
+    color: #d2883e;
+}
+
+
+
+/* ZE NAVI!!!!!!!!!!!!!!!!!! */
 
 
 
