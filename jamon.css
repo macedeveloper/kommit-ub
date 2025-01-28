@@ -1,31 +1,112 @@
 @charset "UTF-8";
 
 html{
-    font-family:'Montserrat', 'Lexend', 'Calibri', sans-serif;
+    font-family:'Montserrat', 'Calibri', sans-serif;
     text-align: center;
     color:#bcb8fe;
     background-image: linear-gradient(#1a0e3e, #000000);
     background-attachment: fixed;
 }
 
-.header{
-    margin: 8% auto;
+br {
+    line-height: 150%;
+}
+
+.sonohead{
+    margin: 2% auto;
+    padding: 4%;
+    max-width: 80%;
+    background:#2c1a4b;
+    box-shadow:0 5px 10px rgba(16, 0, 53, 0.2),0 15px 40px rgba(0,0,0,.05);
+    display: flex; /*ddisplays the uhhhh the contents as horizonatal i think*/
+    align-items: center; /*align center*/
+}
+.sonohead img{
+    width: 200px;
+    margin-right: 20px;
+}
+.sonohead p{
+    flex: 1; /* flexible layout i think???? */
+    text-align: justify;
+}
+
+.sectionwoagh{
+    margin: 3% auto;
     padding: 4%;
     max-width: 80%;
     background:#2c1a4b;
     box-shadow:0 5px 10px rgba(16, 0, 53, 0.2),0 15px 40px rgba(0,0,0,.05)
 }
+/* .sectionwoagh{OKSDFAJUIY */
+/* im keeping this here so im immortalising the moment i   crashed thhe fuck out!! 
+ because of something,, and i accidentlay typed in the code due to the excit emetmn
+ :33 I LOVE IT SO MUCH AAAARFHJGH its peak its so peak its Peam,, pea, peak ahsjfs  , ,, gFhfhfg*/
 
-.bodybg{
-    margin: 8% auto;
-    padding: 4%;
-    max-width: 80%;
+.dualcontainer{
+    display: table;
+    margin: 4%;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+.dualsection{
+    display: table-cell;
+    align-items: center; /*align center*/
     background:#2c1a4b;
-    box-shadow:0 5px 10px rgba(16, 0, 53, 0.2),0 15px 40px rgba(0,0,0,.05)
+    padding: 20px 10px 30px 10px;
+    line-height: 1.4;
+    flex: 1;
+}
+.dualsection h1{
+    font-style: bold;
+    color: #5fd7ff;
 }
 
-.navi{
+nav{
+    /* background:#2c1a4b; */
+    padding: 20px;
+}
+nav h1{
+    padding-top: 69px; /* i am severely immature */
+    font-style: bold;
+    font-size: xx-large;
+}
+.splash{
+    font-family: 'Minecraftia', 'Montserrat', 'Calibri', 'sans-serif';
+    text-decoration: none;
+    color: rgb(108, 221, 255);
+}
+
+.buttonnavi{
+    font-family: 'Montserrat', 'Calibri', 'sans-serif';
+    background-color: #3b2f6a;
+    padding: 5px 17px 5px 17px;
     color: #ffffff;
+    margin-left: 10% auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+}
+.buttonnavi:hover{
+    background-color: #4e3f8a;
+    color: #f781ff;
+}
+.buttonnaviyourehere{
+    font-family:'Montserrat', 'Lexend', 'Calibri', sans-serif;
+    background-color: #3b2f6a;
+    padding: 5px 17px 5px 17px;
+    color: #00a2ff;
+    margin-left: 10% auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+}
+.buttonnaviyourehere:hover{
+    background-color: rgb(64, 51, 119);
+    color: #00a2ff;
 }
 
 a{
@@ -36,3 +117,11 @@ a{
     font-weight: bold;
     color: #d08aff;
 }
+
+footer .small{
+    font-size: small;
+    color: #5f3f75;
+}
+
+/* HI FUTURE KOMMIT! PAST KOMMIT HERE. PLEASE DO NOT [Kill] YOURSELF OVER MY SPAGHETTI CODE THANK Y OU XOXO
+ */
