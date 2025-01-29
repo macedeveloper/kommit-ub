@@ -18,12 +18,15 @@ br {
     max-width: 80%;
     background:#2c1a4b;
     box-shadow:0 5px 10px rgba(16, 0, 53, 0.2),0 15px 40px rgba(0,0,0,.05);
-    display: flex; /*ddisplays the uhhhh the contents as horizonatal i think*/
+    display: flex; /*ddisplays the uhhhh the contents as horizonatal i think??*/
     align-items: center; /*align center*/
+    justify-content: space-between; /* space between the image and the tex */
+    gap: 20px; /* gay */
 }
 .sonohead img{
-    width: 200px;
-    margin-right: 20px;
+    width: 50%;
+    height: auto;
+    max-width: 250px;
 }
 .sonohead p{
     flex: 1; /* flexible layout i think???? */
@@ -42,7 +45,7 @@ br {
  because of something,, and i accidentlay typed in the code due to the excit emetmn
  :33 I LOVE IT SO MUCH AAAARFHJGH its peak its so peak its Peam,, pea, peak ahsjfs  , ,, gFhfhfg*/
 
-.dualcontainer{
+.dualcontainer {
     display: table;
     margin: 4%;
     align-items: center;
@@ -50,11 +53,11 @@ br {
     border-collapse: separate;
     border-spacing: 20px;
 }
-.dualsection{
+.dualsection {
     display: table-cell;
-    align-items: center; /*align center*/
-    background:#2c1a4b;
-    padding: 20px 10px 30px 10px;
+    align-items: center;
+    background: #2c1a4b;
+    padding: 20px 15px 30px 15px;
     line-height: 1.4;
     flex: 1;
 }
@@ -118,5 +121,34 @@ footer .small{
     color: #5f3f75;
 }
 
-/* HI FUTURE KOMMIT! PAST KOMMIT HERE. PLEASE DO NOT [Kill] YOURSELF OVER MY SPAGHETTI CODE THANK Y OU XOXO
- */
+/* HI FUTURE KOMMIT! PAST KOMMIT HERE. PLEASE DO NOT [Kill] YOURSELF OVER MY SPAGHETTI CODE THANK Y OU XOXO */
+
+
+/* hey past kommit
+dont worry me wanting to stop existing was *technically* not caused by you 
+
+anyways for future code-mmit reference, this section is for mobile devices i think*/
+@media (max-width: 768px) {
+    .sonohead {
+        flex-direction: column; 
+    }
+  
+    .sonohead img{
+        width: 50%;
+        max-width: 250px;
+    }
+
+    .sonohead p{
+        text-align: center;
+    }
+
+    .dualcontainer {
+        display: block;
+        margin: 4%;
+    }
+
+    .dualsection {
+        display: block;
+        margin-bottom: 20px;
+    }
+}

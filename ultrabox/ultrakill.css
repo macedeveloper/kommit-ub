@@ -50,9 +50,6 @@ audio{
 .navilinks:hover{
     color: #d2883e;
 }
-
-
-
 /* ZE NAVI!!!!!!!!!!!!!!!!!! */
 
 
@@ -70,7 +67,7 @@ a:hover{
 
 /* text styles and stuff */
 .col{
-    color: #886644;
+    color: #ffa3a3;
 }
 
 .grey{
@@ -88,10 +85,6 @@ a:hover{
     color: #afafaf;
     font-size: small;
 }
-.link:hover{
-    color: #ffa3a3;
-    font-size: small;
-}
 
 .large{
     font-weight: bold;
@@ -102,14 +95,51 @@ a:hover{
 
 
 
-/* categories */
+/* column view */
+.stupidfuckingcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.audiofile{
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(50% - 10px);
+    /* just so everyone here knows, i had to use some help for this. 
+    i am not intelligent. do not mistake me as such */
+}
+.audiofile p{
+    padding: 20px;
+    border: 4px solid #444444;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    word-break: break-word;
+}
+@media (max-width: 768px) {
+    .audiofile{
+        flex-basis: 100%;
+    }
+}
+/* column view */
+
+
+
+/* categories
+    note to self: 
+    catOne to catEight are all instrument channels
+    catNine all to catThirteen are drum channels
+*/
 .catOne{
     font-weight: bold;
     font-size: large;
     color: #a8302f;
 }
 .catOne:hover{
-    color: #ff4949;
+    color: #a8302f;
 }
 
 .catTwo{
@@ -118,7 +148,7 @@ a:hover{
     color: #c75000;
 }
 .catTwo:hover{
-    color: #ff8838;
+    color: #c75000;
 }
 
 .catThree{
@@ -127,15 +157,96 @@ a:hover{
     color: #a1a100;
 }
 .catThree:hover{
-    color: #eded25;
+    color: #a1a100;
 }
 
 .catFour{
     font-weight: bold;
     font-size: large;
-    color: #5f6f6f;
+    color: #139620;
 }
 .catFour:hover{
-    color: #a2cfcf;
+    color: #139620;
+}
+
+.catFive{
+    font-weight: bold;
+    font-size: large;
+    color: #0099a1;
+}
+.catFive:hover{
+    color: #0099a1;
+}
+
+.catSix{
+    font-weight: bold;
+    font-size: large;
+    color: #58599e;
+}
+.catSix:hover{
+    color: #58599e;
+}
+
+.catSeven{
+    font-weight: bold;
+    font-size: large;
+    color: #6038a5;
+}
+.catSeven:hover{
+    color: #6038a5;
+}
+
+.catEight{
+    font-weight: bold;
+    font-size: large;
+    color: #932253;
+}
+.catEight:hover{
+    color: #932253;
+}
+
+.catNine{
+    font-weight: bold;
+    font-size: large;
+    color: #6f6f6f;
+}
+.catNine:hover{
+    color: #6f6f6f;
+}
+
+.catTen{
+    font-weight: bold;
+    font-size: large;
+    color: #996633;
+}
+.catTen:hover{
+    color: #996633;
+}
+
+.catEleven{
+    font-weight: bold;
+    font-size: large;
+    color: #4a6d8f;
+}
+.catEleven:hover{
+    color: #4a6d8f;
+}
+
+.catTwelve{
+    font-weight: bold;
+    font-size: large;
+    color: #7a4f9a;
+}
+.catTwelve:hover{
+    color: #7a4f9a;
+}
+
+.catThirteen{
+    font-weight: bold;
+    font-size: large;
+    color: #607837;
+}
+.catThirteen:hover{
+    color: #607837;
 }
 /* categories */
