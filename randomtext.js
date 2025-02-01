@@ -106,7 +106,7 @@ function cockandballs() {
         `oog`,
         `amen breaks!`,
         `challenge soon`,
-        `<inside joke>`,
+        `(inside joke)`,
         `ssddfgfhdghgfdsfdfhfdkh`,
         `this is gonna leave a-<br>markiplier: a what?`,
         `an empty bliss beyond this world`,
