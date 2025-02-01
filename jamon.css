@@ -3,25 +3,48 @@
 html{
     font-family:'Montserrat', 'Calibri', sans-serif;
     text-align: center;
-    color:#bcb8fe;
-    background-image: linear-gradient(#1a0e3e, #000000);
-    background-attachment: fixed;
+    color:#bcb8fe;  
 }
+
+body{
+    background: #1a0e3e;
+    background-image: linear-gradient(#1a0e3e, #000000);
+}
+body .colonthree{
+    z-index: -1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* i dont even know how im supposed to organise this anymore */
 
 br {
     line-height: 150%;
+}
+
+a{
+    color: #00eaff;
+}
+
+footer .small{
+    font-size: small;
+    color: #5f3f75;
 }
 
 .sonohead{
     margin: 2% auto;
     padding: 4%;
     max-width: 80%;
-    background:#2c1a4b;
+    background:rgba(40, 17, 80, 0.475);
+    backdrop-filter: blur(10px);
     box-shadow:0 5px 10px rgba(16, 0, 53, 0.2),0 15px 40px rgba(0,0,0,.05);
     display: flex; /*ddisplays the uhhhh the contents as horizonatal i think??*/
     align-items: center; /*align center*/
     justify-content: space-between; /* space between the image and the tex */
     gap: 20px; /* gay */
+    
 }
 .sonohead img{
     width: 50%;
@@ -37,7 +60,8 @@ br {
     margin: 3% auto;
     padding: 4%;
     max-width: 80%;
-    background:#2c1a4b;
+    background:rgba(40, 17, 80, 0.475);
+    backdrop-filter: blur(10px);
     box-shadow:0 5px 10px rgba(16, 0, 53, 0.2),0 15px 40px rgba(0,0,0,.05)
 }
 /* .sectionwoagh{OKSDFAJUIY */
@@ -56,7 +80,8 @@ br {
 .dualsection {
     display: table-cell;
     align-items: center;
-    background: #2c1a4b;
+    background:rgba(40, 17, 80, 0.475);
+    backdrop-filter: blur(10px);
     padding: 20px 15px 30px 15px;
     line-height: 1.4;
     flex: 1;
@@ -83,7 +108,7 @@ nav h1{
 
 .buttonnavi{
     font-family: 'Montserrat', 'Calibri', 'sans-serif';
-    background-color: #3b2f6a;
+    background-color: rgba(68, 50, 142, 0.4);
     padding: 5px 17px 5px 17px;
     color: #ffffff;
     margin-left: 10% auto;
@@ -93,12 +118,12 @@ nav h1{
     font-size: large;
 }
 .buttonnavi:hover{
-    background-color: #4e3f8a;
+    background-color: rgb(74, 54, 153);
     color: #f781ff;
 }
 .buttonnaviyourehere{
     font-family:'Montserrat', 'Lexend', 'Calibri', sans-serif;
-    background-color: #3b2f6a;
+    background-color: rgba(117, 84, 219, 0.437);
     padding: 5px 17px 5px 17px;
     color: #00a2ff;
     margin-left: 10% auto;
@@ -108,36 +133,58 @@ nav h1{
     font-size: large;
 }
 .buttonnaviyourehere:hover{
-    background-color: rgb(64, 51, 119);
-    color: #00a2ff;
+    background-color: rgb(94, 74, 187);
+    color: #ffffff;
 }
 
-a{
-    color: #00eaff;
+/* balls */
+.balls{
+    margin: 2% auto;
+    max-width: 80%;
+    align-items: center; /*align center*/
+    justify-content: space-between; /* space between the image and the tex */
+    display: flex; /*ddisplays the uhhhh the contents as horizonatal i think??*/
+    gap: 30px; /* gay */
+}
+.wegaboard{
+    background:rgba(40, 17, 80, 0.475);
+    backdrop-filter: blur(10px);
+    padding: 3%;
 }
 
-footer .small{
-    font-size: small;
-    color: #5f3f75;
+.ihatemyself{
+    display: flex; /*ddisplays the uhhhh the contents as horizonatal i think??*/
+    align-items: center; /*align center*/
+    justify-content: space-between; /* space between the image and the tex */
+    gap: 20px; /* gay */
+    
+}
+.ihatemyself img{
+    width: 50%;
+    min-width: 150px;
+    height: auto;
+    max-width: 250px;
+}
+.ihatemyself p{
+    flex: 1; /* flexible layout i think???? */
+    text-align: center;
 }
 
 /* HI FUTURE KOMMIT! PAST KOMMIT HERE. PLEASE DO NOT [Kill] YOURSELF OVER MY SPAGHETTI CODE THANK Y OU XOXO */
 
 
 /* hey past kommit
-dont worry me wanting to stop existing was *technically* not caused by you 
+dont worry, me wanting to stop existing was *technically* not caused by you 
 
 anyways for future code-mmit reference, this section is for mobile devices i think*/
 @media (max-width: 768px) {
     .sonohead {
         flex-direction: column; 
     }
-  
     .sonohead img{
         width: 50%;
         max-width: 250px;
     }
-
     .sonohead p{
         text-align: center;
     }
@@ -146,9 +193,24 @@ anyways for future code-mmit reference, this section is for mobile devices i thi
         display: block;
         margin: 4%;
     }
-
     .dualsection {
         display: block;
         margin-bottom: 20px;
+    }
+
+    .ihatemyself {
+        flex-direction: column; 
+    }
+    .ihatemyself img{
+        width: 50%;
+        max-width: 250px;
+        padding-top: 20px;
+    }
+    .ihatemyself p{
+        text-align: center;
+    }
+
+    .balls {
+        flex-direction: column; 
     }
 }
