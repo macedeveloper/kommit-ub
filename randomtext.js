@@ -177,10 +177,8 @@ function cockandballs() {
     ];
 
     var rText = Math.floor(Math.random() * messages.length);
-
+    
     document.getElementById("randomsplash").innerHTML = messages[rText];
-
-
 
 
     const clickSplash = document.getElementById("randomsplash");
