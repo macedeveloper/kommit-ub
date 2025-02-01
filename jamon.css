@@ -104,6 +104,9 @@ nav h1{
     font-family: 'Minecraftia', 'Montserrat', 'Calibri', 'sans-serif';
     text-decoration: none;
     color: rgb(108, 221, 255);
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
 }
 
 .buttonnavi{
