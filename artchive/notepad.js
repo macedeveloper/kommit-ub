@@ -40,4 +40,27 @@ function dragElement(elmnt) {
     document.onmouseup = null;
     document.onmousemove = null;
   }
+
+  $(window).resize(function() {
+
+    if ($(this).width() < 400) {
+  
+      $('.notepad').hide();
+  
+    } else {
+  
+      $('.notepad').show();
+  
+      }
+  
+  });
+
 }
+
+function closeNotepad() {
+  document.getElementById('notepad').style.display = 'none';
+  document.getElementById('textchangescript').style.display = 'none';
+
+  window.location = loc;
+}
+

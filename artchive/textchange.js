@@ -2,7 +2,11 @@ const toggleImage = document.getElementById('textchangescript');
 const thiscatsnameis = document.getElementById('whatthesigma');
 
 const wgar = `last updated: 01/02/2025
-                okay i dont know what to write here actually`;
+                - added ability to close notepad
+
+                okay i dont know what to write here actually
+                
+                thinking about making the aesthetic an old phone for mobile view`;
 const toggledddd = `honestly i dont even know who would want to use
                     these but just in case i guess
 
