@@ -193,6 +193,7 @@ nav h1{
     font-family: 'Minecraftia', 'Montserrat', 'Calibri', 'sans-serif';
     text-decoration: none;
     color: rgb(108, 221, 255);
+    transition-delay: 0.2s;
     text-decoration: none;
     cursor: pointer;
     user-select: none;

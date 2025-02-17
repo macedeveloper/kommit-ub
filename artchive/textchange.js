@@ -3,12 +3,22 @@ const thiscatsnameis = document.getElementById('whatthesigma');
 
 const wgar = `last updated: 01/02/2025
                 - added ability to close notepad
+                - changed bg from w7 to old phones bg
 
-                okay i dont know what to write here actually
+                okay i dunno what to write here
                 
-                thinking about making the aesthetic an old phone for mobile view`;
+                thinking about making the aesthetic an
+                old android phone for mobile view
+                
+                im gonna try but i think that requires
+                recoding a LOT of shit and i dont wanna >:(
+                
+                wait wait wiat,,, first i have to add
+                yknow, the whole point of this page
+                (which is art)`;
 const toggledddd = `honestly i dont even know who would want to use
-                    these but just in case i guess
+                    these but
+                    just in case, i guess
 
                     https://creativecommons.org/licenses/by-nc/4.0/`;
 

@@ -1,0 +1,33 @@
+html{
+    font-family:'Nunito', 'Calibri', sans-serif;
+    background: #241c2b;
+    margin: 10%;
+}
+
+body{
+    color: #ffffff;
+}
+
+.goals{
+    color: #ffffff;
+}
+
+h1{
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: bolder;
+}
+h4{
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}

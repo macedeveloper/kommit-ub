@@ -1,7 +1,7 @@
 html{
     font-family:'Lexend', 'Calibri', 'sans-serif';
     background-color: #9cc6ba;
-    background-image: url("hillw7.jpg");
+    background-image: url("bgs/w7hill.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     color: #000000;
@@ -125,9 +125,12 @@ footer .date{
 /* men kissing */
 @media (max-width: 768px) {
     html{
-        background-image: url("bluew7.jpg");
-        background-size:cover;
         color: #ffffff;
+        background-image: url("bgs/mdandelion.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
     }
     .image-container {
         flex-direction: column; 
