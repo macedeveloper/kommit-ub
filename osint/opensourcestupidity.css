@@ -31,3 +31,51 @@ h4{
     -webkit-text-fill-color: transparent;
     text-align: center;
 }
+
+.smalltext{
+    font-size: small;
+    color: #8b7fa1;
+}
+
+.summarysolution{
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #ff72ef, #61c7e4, #8d79f0);
+    background: linear-gradient(to right, #ff72ef, #61c7e4, #8d79f0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+.summaryoptional{
+    background: #d57f7f;
+    background: -webkit-linear-gradient(to right, #fffc55, #ff9e54, #ff3a3a);
+    background: linear-gradient(to right, #fffc55, #ff9e54, #ff3a3a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+.summaryhints{
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #00ff84, #6afff3, #95ffda);
+    background: linear-gradient(to right, #00ff84, #6afff3, #95ffda);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+a{
+    color: #48bcff;
+}
+
+li{
+    margin: 10px 0;
+}
+
+.images{
+    text-align: center;
+}
+img{
+    max-width: 50%;
+}
