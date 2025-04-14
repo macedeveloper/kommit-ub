@@ -79,6 +79,17 @@ html{
     1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
 }
 
+@font-face {
+    font-family: 'balatro'; src: url('fonts/balatro.ttf');
+}
+.balatro {
+    font-family: "balatro", 'Minecraftia', 'Montserrat', sans-serif;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
 .comicsans {
     font-family: "Comic Sans MS", 'Minecraftia', 'Montserrat', sans-serif;
     font-size: x-large;
