@@ -331,7 +331,7 @@ function cockandballs() {
         `where motivation`,
         `more than 330 splashes!`,
         `denial era still hitting hard!`,
-        `april 10, dont forget`,
+        `dont forget`,
         `DELTARUNE TOMORROW`,
         `SILKSONG IS REALLL`,
         `balatro is canon in black mirror`,

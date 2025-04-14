@@ -152,6 +152,26 @@ footer .small{
     text-align: justify;
 }
 
+.gay h1{
+    user-select: none;
+    font-size: 40px;
+    color: white;
+    background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0,255,0) 14.28%,
+                rgb(0,255,255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+    background-size: 600vw 600vw;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: slide 10s linear infinite forwards;
+  }
+@keyframes slide {
+    0%{
+      background-position-x: 0%;
+    }
+    100%{
+      background-position-x: 600vw;
+    }
+}
+
 .sectionwoagh{
     margin: 3% auto;
     padding: 4%;
@@ -159,6 +179,10 @@ footer .small{
     background:rgba(40, 17, 80, 0.475);
     backdrop-filter: blur(10px);
     box-shadow:0 5px 10px rgba(16, 0, 53, 0.2),0 15px 40px rgba(0,0,0,.05)
+}
+.sectionwoagh h1{
+    font-weight: 900px;
+    color: #5fd7ff;
 }
 /* .sectionwoagh{OKSDFAJUIY */
 /* im keeping this here so im immortalising the moment i   crashed thhe fuck out!! 
@@ -259,17 +283,16 @@ nav h1{
 }
 
 .ihatemyself{
-    display: flex; /*ddisplays the uhhhh the contents as horizonatal i think??*/
     align-items: center; /*align center*/
     justify-content: space-between; /* space between the image and the tex */
     gap: 20px; /* gay */
     
 }
 .ihatemyself img{
-    width: 50%;
+    width: 60%;
     min-width: 150px;
     height: auto;
-    max-width: 250px;
+    max-width: 300px;
 }
 .ihatemyself p{
     flex: 1; /* flexible layout i think???? */
