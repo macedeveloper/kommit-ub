@@ -129,6 +129,11 @@ footer .small{
     color: #5f3f75;
 }
 
+.small{
+    font-size: smaller;
+    color:#bbb8fe93;  
+}
+
 .sonohead{
     margin: 2% auto;
     padding: 4%;

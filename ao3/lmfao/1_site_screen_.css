@@ -73,12 +73,26 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 body {
   font: 100%/1.125 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, sans-serif, 'GNU Unifont';
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: rgb(33, 29, 29);
+  color: rgb(255, 255, 255);
 }
 
 a, a:link, a:visited:hover {
   color: #111;
   text-decoration: none;
   border-bottom: 1px solid;
+}
+
+.dark-mode a,
+.dark-mode a:link,
+.dark-mode a:visited {
+  color: rgb(255, 152, 152);
+  border-bottom-color: rgb(227, 202, 202);
 }
 
 a:visited {
@@ -654,6 +668,10 @@ http://otwcode.github.com/docs/front_end_coding/patterns/supertypes
 /*END== *//*==REGION: MAIN is #3 of the 4 regions shown on every page 
 http://otwcode.github.com/docs/front_end_coding/patterns/supertypes
 */
+
+#main.darkmode{
+
+}
 
 #main {
   font-size: 0.875em;
