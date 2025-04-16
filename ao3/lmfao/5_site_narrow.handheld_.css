@@ -6,6 +6,10 @@
   position: relative;
 }
 
+.dark-mode #outer {
+  background-color: rgb(33, 29, 29);
+}
+
 h1, h2, h3 {
     word-break: break-all;
     /* not supported in all browsers, so we need break-all as a fallback */

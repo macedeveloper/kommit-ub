@@ -630,9 +630,8 @@ http://otwcode.github.com/docs/front_end_coding/patterns/supertypes
   margin: 0;
   border: none;
   background: transparent;
-  vertical-align: middle;
-    word-wrap: break-word;
-    box-shadow: none;
+  word-wrap: break-word;
+  box-shadow: none;
 }
 
 #dashboard a:hover {
@@ -668,10 +667,6 @@ http://otwcode.github.com/docs/front_end_coding/patterns/supertypes
 /*END== *//*==REGION: MAIN is #3 of the 4 regions shown on every page 
 http://otwcode.github.com/docs/front_end_coding/patterns/supertypes
 */
-
-#main.darkmode{
-
-}
 
 #main {
   font-size: 0.875em;
