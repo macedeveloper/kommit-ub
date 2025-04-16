@@ -77,9 +77,36 @@ body {
   color: black;
 }
 
+.heh{
+  text-decoration: none;
+}
+.heh:hover{
+  cursor: auto;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.dark-mode .heh{
+  cursor: auto;
+  text-decoration: none;
+  color: rgb(0, 179, 255);
+}
+.dark-mode .heh:hover{
+  cursor: auto;
+  text-decoration: none;
+  color: rgb(0, 255, 153);
+}
+
 .dark-mode {
   background-color: rgb(33, 29, 29);
   color: rgb(255, 255, 255);
+}
+
+.lyrics{
+  color: rgb(0, 0, 0);
+}
+
+.dark-mode .lyrics{
+  color: rgb(206, 198, 255);
 }
 
 a, a:link, a:visited:hover {
