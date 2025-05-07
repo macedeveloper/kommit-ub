@@ -284,7 +284,7 @@ function cockandballs() {
         `50k`,
         `click me!`,
         `im an anomalocaris! i do my best`,
-        `<img src="kije.png" alt="kijetesantakalu" width="50">`,
+        `<img src="/images/kije.png" alt="kijetesantakalu" width="50">`,
         `still procrastinating`,
         `bedrotting`,
         `aye aye captain`,
@@ -406,6 +406,22 @@ function cockandballs() {
         `wot if ya mum had batteries :joy:`,
         `my dad left me`,
         `asdsfvaffdssvadasdasfvsaads`,
+        `i am a simulacrum`,
+        `human or not?`,
+        `i failed so many captchas`,
+        `also play false mall!`,
+        `i won the lottery (the 1 in 2 chance of bloodstone activation)`,
+        `the pipeline.`,
+        `hypothetically`,
+        `what would you do. if i was a ufo. and i hovered over you.`,
+        `im bringing out the drawing tablet (threat)`,
+        `who thought a lamp and a tv would go so well together`,
+        `i need more inside jokes`,
+        `h`,
+        `this site is a mess,`,
+        `gecgecgecgec`,
+        `silksong tomorrow `,
+
 
     ];
     //  `text`,
@@ -422,7 +438,6 @@ function cockandballs() {
     var rText = Math.floor(Math.random() * messages.length);
     
     document.getElementById("randomsplash").innerHTML = messages[rText];
-
 
     const clickSplash = document.getElementById("randomsplash");
 
