@@ -204,6 +204,9 @@ footer .small{
     border-collapse: separate;
     border-spacing: 20px;
 }
+.dualcontainer .spotify {
+    padding: 0px 2px 0px 2px;
+}
 .dualsection {
     display: table-cell;
     align-items: center;
@@ -272,6 +275,22 @@ nav h1{
     color: #ffffff;
 }
 
+button{
+    font-family: 'Montserrat', 'Calibri', 'sans-serif';
+    background-color: rgba(68, 50, 142, 0.4);
+    padding: 7px 10px 7px 10px;
+    color: #ffffff;
+    margin-left: 10% auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+}
+button:hover{
+    background-color: rgb(74, 54, 153);
+    color: #f781ff;
+}
+
 /* balls */
 .balls{
     margin: 2% auto;
@@ -331,6 +350,10 @@ anyways for future code-mmit reference, this section is for mobile devices i thi
         display: block;
         margin-bottom: 20px;
     }
+    .dualcontainer .spotify {
+        display: block;
+        margin: 4%;
+    }
 
     .ihatemyself {
         flex-direction: column; 
@@ -346,5 +369,9 @@ anyways for future code-mmit reference, this section is for mobile devices i thi
 
     .balls {
         flex-direction: column; 
+    }
+
+    .gamebananastuff {
+        width: 100%;
     }
 }

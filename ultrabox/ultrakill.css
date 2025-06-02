@@ -13,7 +13,6 @@ h1{
     padding: 20px 10px 20px 10px;
     border: none;
     border-radius: 10px;
-
 }
 
 .texttext{
@@ -24,6 +23,16 @@ h1{
 
 audio{
     margin-bottom: 20px auto;
+}
+
+
+h2{
+    padding: 20px 10px 20px 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 1% auto;
+    max-width: 70%;
 }
 
 
@@ -139,7 +148,10 @@ a:hover{
     color: #a8302f;
 }
 .catOne:hover{
-    color: #a8302f;
+    color: #e15757;
+}
+h2.catOne{
+    background-color: #a82f2f71;
 }
 
 .catTwo{
@@ -148,16 +160,22 @@ a:hover{
     color: #c75000;
 }
 .catTwo:hover{
-    color: #c75000;
+    color: #f88436;
+}
+h2.catTwo{
+    background-color: #c7500070;
 }
 
-.catThree{
+.catThree {
     font-weight: bold;
     font-size: large;
     color: #a1a100;
 }
 .catThree:hover{
-    color: #a1a100;
+    color: #e2e232;
+}
+h2.catThree{
+    background-color: #a1a10076;
 }
 
 .catFour{
@@ -166,7 +184,10 @@ a:hover{
     color: #139620;
 }
 .catFour:hover{
-    color: #139620;
+    color: #2dda3e;
+}
+h2.catFour{
+    background-color: #1396207d;
 }
 
 .catFive{
@@ -175,7 +196,10 @@ a:hover{
     color: #0099a1;
 }
 .catFive:hover{
-    color: #0099a1;
+    color: #30d8e0;
+}
+h2.catFive{
+    background-color: #0099a16d;
 }
 
 .catSix{
@@ -184,7 +208,10 @@ a:hover{
     color: #58599e;
 }
 .catSix:hover{
-    color: #58599e;
+    color: #a1a3ec;
+}
+h2.catSix{
+    background-color: #58599e74;
 }
 
 .catSeven{
@@ -193,7 +220,10 @@ a:hover{
     color: #6038a5;
 }
 .catSeven:hover{
-    color: #6038a5;
+    color: #9e76e4;
+}
+h2.catSeven{
+    background-color: #6038a57d;
 }
 
 .catEight{
@@ -202,7 +232,10 @@ a:hover{
     color: #932253;
 }
 .catEight:hover{
-    color: #932253;
+    color: #e5689e;
+}
+h2.catEight{
+    background-color: #9322536d;
 }
 
 .catNine{
@@ -211,7 +244,10 @@ a:hover{
     color: #6f6f6f;
 }
 .catNine:hover{
-    color: #6f6f6f;
+    color: #bebebe;
+}
+h2.catNine{
+    background-color: #6f6f6f75;
 }
 
 .catTen{
@@ -220,7 +256,10 @@ a:hover{
     color: #996633;
 }
 .catTen:hover{
-    color: #996633;
+    color: #deb58b;
+}
+h2.catTen{
+    background-color: #9966337b;
 }
 
 .catEleven{
@@ -229,7 +268,10 @@ a:hover{
     color: #4a6d8f;
 }
 .catEleven:hover{
-    color: #4a6d8f;
+    color: #99b7d4;
+}
+h2.catEleven{
+    background-color: #4a6d8f6e;
 }
 
 .catTwelve{
@@ -238,7 +280,10 @@ a:hover{
     color: #7a4f9a;
 }
 .catTwelve:hover{
-    color: #7a4f9a;
+    color: #bb94d9;
+}
+h2.catTwelve{
+    background-color: #7a4f9a6e;
 }
 
 .catThirteen{
@@ -247,6 +292,9 @@ a:hover{
     color: #607837;
 }
 .catThirteen:hover{
-    color: #607837;
+    color: #acc582;
+}
+h2.catThirteen{
+    background-color: #60783776;
 }
 /* categories */

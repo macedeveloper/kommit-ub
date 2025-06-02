@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>fanartchive</title>
+        <link href="socool.css" rel="stylesheet">
+
+        <!-- stupid ass fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <header>
+
+        <h1>the fanart page</h1>
+        <p>
+            thank you vvery epicd
+            <br>wega
+        </p>
+
+    </header>
+
+
+    <body>
+
+        <main>
+            asdgdsgfdfhh
+            <br>
+            <br>work in progresss
+            <br>
+            <br>
+            <br>:3
+            <br>
+
+            <div class="image-container">
+                <div class="squar">
+                    <img alt="windows7 logo icon" width="128"
+                    title="03 01 2025"
+                    src="yippee/3D OZZIE REAL by frogbot.png">
+                    <p>
+                        3D OZZIE REAL by frogbot.png
+                    </p>
+                </div>
+                <div class="squar">
+                    <img alt="windows7 logo icon" width="128"
+                    title="11 12 2024"
+                    src="yippee/118_Sem_Titulo_20240519103748.png">
+                    <p>
+                        118_Sem_Titulo_20240519103748.png
+                    </p>
+                </div>
+                <div class="squar">
+                    <img alt="windows7 logo icon" width="128"
+                    title="25 12 2024"
+                    src="yippee/2023_07_16_10b_Kleki.png">
+                    <p>
+                        2023_07_16_10b_Kleki.png
+                    </p>
+                </div>
+                <div class="squar">
+                    <img alt="windows7 logo icon" width="128"
+                    title="day month year"
+                    src="yippee/20230725_035745.jpg">
+                    <p>
+                        20230725_035745.jpg
+                    </p>
+                </div> 
+                <div class="squar">
+                    <img alt="windows7 logo icon" width="128"
+                    title="day month year"
+                    src="yippee/20230714_115012-1.jpg">
+                    <p>
+                        20230714_115012-1.jpg
+                    </p>
+                </div> 
+
+                <!-- COPY PASTE
+                 
+                <div class="squar">
+                    <img alt="windows7 logo icon" width="128"
+                    title="day month year"
+                    src="yippee/filename">
+                    <p>
+                        displayname.png
+                    </p>
+                </div> 
+
+                -->
+            </div>
+        </main>
+
+        <footer>
+
+            <div class="icons">
+            <a href="/">
+                <img src="icons/icohome.png/" alt="windows7 logo icon">
+            </a>
+
+            <a href="/artchive/">
+                <img src="icons/icopaint.png/" alt="windows7 mspaint icon"
+                    title="you are here right now">
+            </a>
+
+            <a href="/song-dump/">
+                <img src="icons/icomusic.png/" alt="windows7 media player icon"
+                    title="song dump">
+            </a>
+
+            <a href="/ultrabox/">
+                <img src="icons/icoexplorer.png/"
+                    alt="windows7 file explorer icon"
+                    title="ultrabox samples">
+            </a>
+
+            <a href="/fanart-corner/">
+                <img src="icons/icocurrent.png/" alt="windows7 open folder icon"
+                    title="fanarts">
+            </a>
+
+            <a target="_blank" href="https://minesweeper.online/start/2">
+                <img src="icons/icogame.png/" alt="windows7 minesweeper game icon"
+                    title="Minesweeper [Intermediate]">
+            </a>
+        </div>
+
+        <div class="date">
+            <!-- i did not make this. i am too braindead for this
+             ... someone    helped me out -->
+            <p id="time"></p>
+            <p id="date"></p>
+
+            <script>
+                updateDateTime();
+                setInterval(updateDateTime, 1000);
+
+                function updateDateTime() {
+                    const now = new Date();
+            
+                    let hours = String(now.getHours()).padStart(2, '0');
+                    let minutes = String(now.getMinutes()).padStart(2, '0');
+            
+                    let day = String(now.getDate()).padStart(2, '0');
+                    let month = String(now.getMonth() + 1).padStart(2, '0');
+                    let year = now.getFullYear();
+            
+                    let timeString = `${hours}:${minutes}`;
+                    let dateString = `${day}/${month}/${year}`;
+            
+                    document.getElementById("time").textContent = timeString;
+                    document.getElementById("date").textContent = dateString;
+                }
+            </script>
+        </div>
+
+        </footer>
+    </body>
+</html>
