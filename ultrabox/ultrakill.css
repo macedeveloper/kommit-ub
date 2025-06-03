@@ -94,6 +94,9 @@ a:hover{
     color: #afafaf;
     font-size: small;
 }
+.link:hover{
+    color: #9c96c8;
+}
 
 .large{
     font-weight: bold;
