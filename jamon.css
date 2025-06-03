@@ -3,7 +3,7 @@
 html{
     font-family:'Montserrat', 'Calibri', sans-serif;
     text-align: center;
-    color:#bcb8fe;  
+    color:#d3d1ff;  
 }
 
 /* FONTS FONTS FONTS FONTS FONTS FONTS FONTS FONTS FONTS FONTS FONTS FONTS FONTS FONTS */
@@ -140,7 +140,7 @@ footer .small{
     max-width: 80%;
     background:rgba(40, 17, 80, 0.475);
     backdrop-filter: blur(10px);
-    box-shadow:0 5px 10px rgba(16, 0, 53, 0.2),0 15px 40px rgba(0,0,0,.05);
+    box-shadow:0 5px 10px rgba(7, 0, 25, 0.2),0 15px 40px rgba(0,0,0,.05);
     display: flex; /*ddisplays the uhhhh the contents as horizonatal i think??*/
     align-items: center; /*align center*/
     justify-content: space-between; /* space between the image and the tex */
