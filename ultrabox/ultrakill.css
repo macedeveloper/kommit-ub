@@ -300,4 +300,16 @@ h2.catTwelve{
 h2.catThirteen{
     background-color: #60783776;
 }
+
+.catFourteen{
+    font-weight: bold;
+    font-size: large;
+    color: #00ff91;
+}
+.catFourteen:hover{
+    color: #8cffa3;
+}
+h2.catFourteen{
+    background-color: #00704576;
+}
 /* categories */
