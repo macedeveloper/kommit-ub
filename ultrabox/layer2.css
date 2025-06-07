@@ -4,12 +4,12 @@ html{
     font-family:'Ubuntu', 'Calibri', sans-serif;
     text-align: center;
     color:#ffffff;
-    background-image: linear-gradient(#222222, #000000);
+    background-image: linear-gradient(#272331, #000000);
     background-attachment: fixed;
 }
 
 h1{
-    background:#444444;
+    background:#49495f;
     padding: 20px 10px 20px 10px;
     border: none;
     border-radius: 10px;
@@ -40,7 +40,7 @@ h2{
 /* ZE NAVI!!!!!!!!!!!!!!!!!! */
 .buttonnavi{
     font-family:'Ubuntu', 'Calibri', sans-serif;
-    background-color: #444444;
+    background-color: #49495f;
     padding: 5px 17px 5px 17px;
     color: #ffffff;
     margin-left: 10% auto;
@@ -50,14 +50,14 @@ h2{
     font-size: large;
 }
 .buttonnavi:hover{
-    background-color: #886644;
+    background-color: #4c7cff;
 }
 
 .navilinks{
-    color: #886644;
+    color: #4c7cff;
 }
 .navilinks:hover{
-    color: #d2883e;
+    color: #a6beff;
 }
 /* ZE NAVI!!!!!!!!!!!!!!!!!! */
 
@@ -75,7 +75,7 @@ h2{
     margin: 1%;
 }
 .dropbtn {
-    background-color: #444444;
+    background-color: #49495f;
     color: white;
     padding: 10px;
     font-size: 16px;
@@ -84,7 +84,7 @@ h2{
     cursor: pointer;
 }
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #886644;
+  background-color: #4c7cff;
 }
 .dropdown {
     position: relative;
@@ -93,7 +93,7 @@ h2{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #444444;
+    background-color: #49495f;
     border-radius: 10px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -105,19 +105,17 @@ h2{
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover {background-color: #727272;}
+.dropdown-content a:hover {background-color: #737394;}
 .show {display:block;}
 /* ps: thank you we3schools for free code youre my goat i love you no homo but id still kiss you sloppy style LMFAOO ASOFAS DHJAFSJVHGSCVAS */
 /* DROPDOWN THING */
 
-
-
 /* links */
 a{
-    color: #886644;
+    color: #4c7cff;
 }
 a:hover{
-    color: #de8226;
+    color: #a6beff;
 }
 /* links */
 
@@ -125,7 +123,7 @@ a:hover{
 
 /* text styles and stuff */
 .col{
-    color: #ffa3a3;
+    color: #ff81d5;
 }
 
 .grey{
@@ -197,85 +195,85 @@ a:hover{
 .catOne{
     font-weight: bold;
     font-size: large;
-    color: #a8302f;
+    color: #932253;
 }
 .catOne:hover{
-    color: #e15757;
+    color: #e5689e;
 }
 h2.catOne{
-    background-color: #a82f2f71;
+    background-color: #9322536d;
 }
 
 .catTwo{
     font-weight: bold;
     font-size: large;
-    color: #c75000;
+    color: #6f6f6f;
 }
 .catTwo:hover{
-    color: #f88436;
+    color: #bebebe;
 }
 h2.catTwo{
-    background-color: #c7500070;
+    background-color: #6f6f6f75;
 }
 
-.catThree {
+.catThree{
     font-weight: bold;
     font-size: large;
-    color: #a1a100;
+    color: #996633;
 }
 .catThree:hover{
-    color: #e2e232;
+    color: #deb58b;
 }
 h2.catThree{
-    background-color: #a1a10076;
+    background-color: #9966337b;
 }
 
 .catFour{
     font-weight: bold;
     font-size: large;
-    color: #139620;
+    color: #4a6d8f;
 }
 .catFour:hover{
-    color: #2dda3e;
+    color: #99b7d4;
 }
 h2.catFour{
-    background-color: #1396207d;
+    background-color: #4a6d8f6e;
 }
 
 .catFive{
     font-weight: bold;
     font-size: large;
-    color: #0099a1;
+    color: #7a4f9a;
 }
 .catFive:hover{
-    color: #30d8e0;
+    color: #bb94d9;
 }
 h2.catFive{
-    background-color: #0099a16d;
+    background-color: #7a4f9a6e;
 }
 
 .catSix{
     font-weight: bold;
     font-size: large;
-    color: #58599e;
+    color: #607837;
 }
 .catSix:hover{
-    color: #a1a3ec;
+    color: #acc582;
 }
 h2.catSix{
-    background-color: #58599e74;
+    background-color: #60783776;
 }
 
 .catSeven{
     font-weight: bold;
     font-size: large;
-    color: #6038a5;
+    color: #00ff91;
 }
 .catSeven:hover{
-    color: #9e76e4;
+    color: #a5ffb7;
 }
 h2.catSeven{
-    background-color: #6038a57d;
+    background-color: #00704576;
 }
 
 /* categories */
