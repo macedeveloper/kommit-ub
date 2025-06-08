@@ -36,7 +36,6 @@ h2{
 }
 
 
-
 /* ZE NAVI!!!!!!!!!!!!!!!!!! */
 .buttonnavi{
     font-family:'Ubuntu', 'Calibri', sans-serif;
@@ -177,6 +176,16 @@ a:hover{
     flex-direction: column;
     gap: 10px;
     word-break: break-word;
+}
+p.newAddition{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    word-break: break-word;
+    border-image: linear-gradient(to bottom, #4d6173 0%, #2b2447 100%) 1;
+    border-width: 4px;
+    border-style: solid;
 }
 @media (max-width: 768px) {
     .audiofile{
