@@ -306,11 +306,15 @@ button:hover{
     padding: 3%;
 }
 
+.lancer{
+    width: 60%;
+    height: auto;
+}
+
 .ihatemyself{
     align-items: center; /*align center*/
     justify-content: space-between; /* space between the image and the tex */
     gap: 20px; /* gay */
-    
 }
 .ihatemyself img{
     width: 60%;

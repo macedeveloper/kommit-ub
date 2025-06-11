@@ -19,13 +19,18 @@ function whatthefuck() {
         `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5qzGqhLV6fHbXpSdqqal6w?utm_source=generator" width="70%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
         `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2I3SfDBpiBZjAqYm547JF3?utm_source=generator" width="70%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
         `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7C4SULfBFfwFht9C9IJEy0?utm_source=generator" width="70%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+        `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6xySRMWyGJU9YnMWFVJTVR?utm_source=generator" width="70%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+        `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3RbXsEvzhiRPB84veA6ZNS?utm_source=generator" width="70%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+        `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3q2U4RiY38JMehY2uPXLAJ?utm_source=generator" width="70%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+        `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1HEfXDxLCuIAOvNkYMK9pC?utm_source=generator" width="70%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+        `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4wCOELRxn0Cf8bSawHyqF1?utm_source=generator" width="70%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
     ];
     // `song`,
 
     // list so far so i can keep track:
     // eld unknown, battle hym of the soul, making day, beneath the mask, silly billy, lagtrain, rolling girl, art of war,
     // ferris wheel, deeper, falling behind, exit music, 19, plane to catch, everything goes on, making day
-    //
+    // i heard this song in a dream, blurry memory, 2. something, RS5
     //
     //
     //

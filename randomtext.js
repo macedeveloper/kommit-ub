@@ -293,7 +293,7 @@ function cockandballs() {
         `Dbumnass`,
         `starways!`,
         `interaction bait`,
-        `would your pfp help an old lady across the road be honest!`,
+        `j*b... :wilted_rose:`,
         `DAMN!!!!!!!!!!!!!!!!!!!!!!!!!!!`,
         `the you you are`,
         `sina li jaki e lawa`,
@@ -354,7 +354,7 @@ function cockandballs() {
         `bogos binted?`,
         `blueprint x brainstorm`,
         `i need to get the balatro font here soon`,
-        `xMult`,
+        `i have room temperature iq`,
         `+4 Mult`,
         `jimbo was here`,
         `hi mr alien!!!`,
@@ -391,7 +391,7 @@ function cockandballs() {
         `domaj dont look the code here is horrible`,
         `precipice is a nice song. fucking fight me`,
         `white monster is pretty nice but water is even better`,
-        `GENDERBENT GF FNF. GENDERBENT GF FNF,,,,`,
+        `genderbent gf fnf,,,`,
         `plant?`,
         `they call him.... mc dinglenut.`,
         `hasnt achieved anything of significance!!`,
@@ -467,7 +467,20 @@ function cockandballs() {
         `do crime`,
         `ts so kevin`,
         `da huzz`,
-        `line 470!`
+        `make bankroll`,
+        `eur`,
+        `1 robuck`,
+        `zendaya's hat`,
+        `Nobody Knows I'm Gooning Right Now... Secretly Gooning in Public wit...`,
+        `its true. i have a severe allergy and phobia to overw*tch. please refer to me as a girl from now on, i also have lost privileges to the f slur`,
+        `what does dpib;e pr mptjomg dp`,
+        `shows you my shaboingaboing`,
+        `dont look in the source code its awful`,
+        `click me!`,
+        `we love robors here!! except for the generative robors`,
+        `<span class="vcr">NOTHING BUT SCRAP!</span>`,
+        `"heccin noice"`,
+        `line 483!`
 
 
     ];
