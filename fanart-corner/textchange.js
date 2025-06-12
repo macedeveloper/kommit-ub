@@ -1,21 +1,27 @@
 const toggleImage = document.getElementById('textchangescript');
 const thiscatsnameis = document.getElementById('whatthesigma');
 
-const wgar = `last updated: 01/02/2025
-                - added ability to close notepad
-                - changed bg from w7 to old phones bg
+const wgar = `you found a little secret!
+                anyways, i cancelled this because as i said,
+                it seemed like such a pain to collect everything </3
 
-                okay i dunno what to write here
+                i have scattered doodles across so many devices
+
+                theres also the storage issue AND the fact that
+                if i want this to work, i have to update it 
+                everytime i have a new drawing..,
                 
-                thinking about making the aesthetic an
-                old android phone for mobile view
+                so yeah!
+
+                there's also my slight fear of getting everything
+                i drew stolen by someone because i never
+                watermark/sign my art dhjdgsdfj
+
+                there's also ai scrapers...
+
+                sooo yeah!
                 
-                im gonna try but i think that requires
-                recoding a LOT of shit and i dont wanna >:(
-                
-                wait wait wiat,,, first i have to add
-                yknow, the whole point of this page
-                (which is art)`;
+                not a lot of good reasons to continue this page`;
 const toggledddd = `honestly i dont even know who would want to use
                     these but
                     just in case, i guess

@@ -1,9 +1,6 @@
 html {
     font-family: 'Lexend', 'Calibri', 'sans-serif';
-    background-color: #9cc6ba;
-    background-image: url("bgs/w7hill.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color: #000000;
     color: #000000;
 }
 
@@ -16,11 +13,21 @@ html {
     border: 1px solid #d3d3d3;
 }
 
+@font-face {
+    font-family: 'determination'; src: url('/fonts/DeterminationSansWeb.ttf');
+}
+.determination {
+    font-family: "determination", 'Lexend', 'Calibri', sans-serif;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
 #notepadheader {
     font-family: 'Lexend', 'Calibri', 'sans-serif';
     padding: 10px;
     cursor: move;
     z-index: 10;
+    color: #ffffff;
     line-height: 10px;
     text-align: left;
     user-select: none;
@@ -39,7 +46,7 @@ html {
     font-family: 'Sometype Mono', 'Calibri', 'sans-serif';
     text-align: center;
     margin: 5px;
-    color: #000000;
+    color: #ffffff;
     font-size: small;
     word-spacing: 10px;
     user-select: none;
@@ -59,26 +66,6 @@ html {
     width: 45px;
 }
 
-
-.zoomimage {
-    background-color: rgb(25, 20, 43);
-    width: 128px;
-    height: 128px;
-    margin: 0 auto;
-    align-items: center;
-    text-align: center;
-    display: block;
-    z-index: 999;
-    cursor: pointer;
-    -webkit-transition-property: all;
-    -webkit-transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease;
-}
-.zoomimage:hover {
-    transition-delay: 0.5s;
-    transform: scale(2);
-    align-items: center;
-}
 
 
 footer {
@@ -125,42 +112,6 @@ footer .date {
     line-height: 50%;
 }
 
-.NinePMThoughtsHittinHardRightNow {
-    margin-left: 30px;
-    margin-top: 30px;
-}
-
-.squar p {
-    text-align: center;
-    width: 128px;
-    word-wrap: break-word;
-    line-height: 18px;
-    font-size: small;
-}
-
-.image-container {
-    /* border: 2px solid #000000; debug */
-    display: flex;
-    gap: 10px;
-}
-
-.image-container .squar {
-    /* border: 4px solid rgb(0, 2, 134);  debug */
-    margin: 2% auto;
-}
-
-.image-container img {
-    object-fit: cover;
-    width: 128px;
-    height: 128px;
-}
-
-.image-container p {
-    margin-bottom: 5px;
-    text-align: center;
-    margin-top: 3px;
-}
-
 /* men kissing */
 @media (max-width: 768px) {
     html {
@@ -170,39 +121,6 @@ footer .date {
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
-    }
-
-    .image-container {
-        flex-direction: column;
-    }
-
-    .image-container img {
-        object-fit: cover;
-        width: 200px;
-        height: 200px;
-    }
-
-    footer .icons {
-        bottom: 0px;
-        padding: 15x;
-        padding-left: 20px;
-    }
-
-    footer img {
-        width: 30px;
-        height: 30px;
-    }
-
-    footer .date {
-        padding-right: 10px;
-        font-size: 12px;
-    }
-
-    .squar p {
-        text-align: center;
-        width: 200px;
-        word-wrap: break-word;
-        line-height: 18px;
     }
 
     #notepad .fake {
