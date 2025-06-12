@@ -22,18 +22,22 @@ function dragElement(elmnt) {
     document.onmousemove = elementDrag;
   }
 
-  function elementDrag(e) {
+function elementDrag(e) {
     e = e || window.event;
     e.preventDefault();
-    // calculate the new cursor position:
     pos1 = pos3 - e.clientX;
     pos2 = pos4 - e.clientY;
     pos3 = e.clientX;
     pos4 = e.clientY;
-    // set the element's new position:
+    
+    // Correct right-edge constraint
+    const notepadWidth = elmnt.offsetWidth;
+    const maxLeft = window.innerWidth - notepadWidth;
+    const newLeft = Math.max(0, Math.min(elmnt.offsetLeft - pos1, maxLeft));
+    
+    elmnt.style.left = newLeft + "px";
     elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-  }
+}
 
   function closeDragElement() {
     // stop moving when mouse button is released:
