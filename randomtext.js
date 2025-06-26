@@ -480,7 +480,23 @@ function cockandballs() {
         `we love robors here!! except for the generative robors`,
         `<span class="vcr">NOTHING BUT SCRAP!</span>`,
         `"heccin noice"`,
-        `line 483!`
+        `hi aster`,
+        `holyfuck.js`,
+        `CLANK CLANK CLANK CLANK`,
+        `perpetually demotivated!`,
+        `i ramble in varying amounts`,
+        `i wanna be mysterious and cool but the urge to overshare is stronger`,
+        `"it only takes 30 seconds"<br>- by someone`,
+        `oh shit i'm getting cyberbullied`,
+        `three thousand cigarettes`,
+        `i have severe lunch gancer`,
+        `sigh... yes. i am a femboy i think`,
+        `hop on repo`,
+        `putting a juicy pickle in my mmouth rn`,
+        `the furry in his natural habitat`,
+        `stop talking about russian nesting dolls im trying to take a group screenie 😭`,
+        `NOOOO I DONT WANT TO GET OVER MY DENIAL STAGE NOOOOO`,
+        `line 499!`
 
 
     ];
