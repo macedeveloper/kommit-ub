@@ -8,6 +8,9 @@ function avoicefromthedigitalvoid() {
         `Life has its ups and downs`,
         `There are people who care about you`,
         `Stay for them`,
+        `There's still time to change`,
+        `You're someone's reason they're happy`,
+        `People care about you more than you think`,
     ];
     //  `message`,
 
