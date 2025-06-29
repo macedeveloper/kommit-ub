@@ -65,6 +65,9 @@ function avoicefromthedigitalvoid() {
         `"it'll pass?" yeah. once you're up you'll eventually fall back down, harder.`,
         `better to not have expectations. it only leads to disappointment`,
         `why bother anymore?`,
+        `they hate me they hate me they hate me they hate me they hate me they hate me they hate me they hate me they hate me they hate me `,
+        `message`,
+        `message`,
     ];
     //  `message`,
 
