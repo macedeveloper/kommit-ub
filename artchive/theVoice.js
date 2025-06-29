@@ -64,7 +64,7 @@ function avoicefromthedigitalvoid() {
         `i should hang up`,
         `"it'll pass?" yeah. once you're up you'll eventually fall back down, harder.`,
         `better to not have expectations. it only leads to disappointment`,
-        `text`,
+        `why bother anymore?`,
     ];
     //  `message`,
 

@@ -19,6 +19,7 @@ function avoicefromthedigitalvoid() {
         `They'll be sad`,
         `They're going to miss you`,
         `You've come this far. Hold on for a little longer.`,
+        `Keep going`,
     ];
     //  `message`,
 

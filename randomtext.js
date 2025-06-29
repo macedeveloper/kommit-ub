@@ -549,7 +549,7 @@ function cockandballs() {
         `Nice shot! Nice shot! Nice shot! Nice shot! Nice shot! Nice shot! Nice shot! Nice shot!`,
         `my goals are beyond your understanding`,
         `<span class="normalfont">randomtext.js not found</span>`,
-        `text`,
+        `dying is gay. unfortunately i am gay`,
         `line 550!`
 
 
