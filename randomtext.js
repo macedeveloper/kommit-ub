@@ -529,7 +529,28 @@ function cockandballs() {
         `thank you hypixel`,
         `mice in venus`,
         `FUCK YOU ASTER`,
-        `line 532!`
+        `i wonder what else i could add in this site`,
+        `this splash text thing just became another way for me to yap`,
+        `pride month is nearly over guys, it was nice acting incredibly homosexual (because i am straight as fuck)`,
+        `too lazy to fix some shit so if you see some weirdass things happening then just ignore it lmfao`,
+        `dying is for casuals`,
+        `like, if you ever have problems in life, don’t confront them. who does that? run away from your problems!`,
+        `my dignity's long gone`,
+        `the sun's engaged to the sky`,
+        `"how could i ever be in peace when nothing else matters to me?"`,
+        `"trapped in time, forever in remorse"`,
+        `"everybody's falling in love and i'm falling behind"`,
+        `jack of all trades, master of none`,
+        `"and under your breath, you spoke of innocence"`,
+        `everything reminds me of you`,
+        `they havent found the fanfiction`,
+        `i need to make more secret sites`,
+        `The person you are trying to call is currently unavailable. Please try again later.`,
+        `Nice shot! Nice shot! Nice shot! Nice shot! Nice shot! Nice shot! Nice shot! Nice shot!`,
+        `my goals are beyond your understanding`,
+        `<span class="normalfont">randomtext.js not found</span>`,
+        `text`,
+        `line 550!`
 
 
     ];
@@ -542,6 +563,7 @@ function cockandballs() {
     //  `<span class="vcr">VCRULTRAKILLTEXT</span>`,
     //  `<span class="omori">OMORITEXT</span>`,
     //  `<span class="balatro">JIMBOFONT</span>`,
+    //  `<span class="normalfont">NORMALFONT</span>`,
 
 
     var rText = Math.floor(Math.random() * messages.length);

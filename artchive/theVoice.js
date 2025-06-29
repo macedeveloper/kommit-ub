@@ -57,6 +57,14 @@ function avoicefromthedigitalvoid() {
         `if only i could give this life to someone more deserving of it`,
         `no one needs me`,
         `it takes one bad thought to spiral down for a whole day or more`,
+        `the things i do have no meaning to the world`,
+        `ill be forgotten like everyone else`,
+        `i wish i could just sleep forever`,
+        `no one ever listens to the voice of reason.`,
+        `i should hang up`,
+        `"it'll pass?" yeah. once you're up you'll eventually fall back down, harder.`,
+        `better to not have expectations. it only leads to disappointment`,
+        `text`,
     ];
     //  `message`,
 

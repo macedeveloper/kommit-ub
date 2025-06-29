@@ -11,6 +11,14 @@ function avoicefromthedigitalvoid() {
         `There's still time to change`,
         `You're someone's reason they're happy`,
         `People care about you more than you think`,
+        `You'll be forgiven`,
+        `Everyone makes mistakes`,
+        `It'll pass`,
+        `It's only temporary`,
+        `You yourself create the meaning for your life`,
+        `They'll be sad`,
+        `They're going to miss you`,
+        `You've come this far. Hold on for a little longer.`,
     ];
     //  `message`,
 
