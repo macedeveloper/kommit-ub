@@ -20,6 +20,11 @@ function avoicefromthedigitalvoid() {
         `They're going to miss you`,
         `You've come this far. Hold on for a little longer.`,
         `Keep going`,
+        `You bring comfort to other people`,
+        `If a moment is all we are, then make it count`,
+        `You've made a difference to someone`,
+        `They'll notice`,
+        `You don't have to be perfect`, 
     ];
     //  `message`,
 

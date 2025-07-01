@@ -9,14 +9,18 @@ html {
     color: #0a0a0a;
     border: #000000;
     cursor: crosshair;
+    font-size: x-small;
 }
 
 .goaway .familiar {
-  background: repeating-linear-gradient(-45deg, red 0%, rgb(0, 0, 0) 7.14%);
-  background-size: 600vw 600vw;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: slide 10s linear infinite forwards;
+    background: repeating-linear-gradient(-45deg, red 0%, rgb(0, 0, 0) 7.14%);
+    background-size: 600vw 600vw;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: slide 10s linear infinite forwards;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 @keyframes slide {
   0%{
@@ -27,11 +31,14 @@ html {
   }
 }
 .goaway .comfort {
-  background: repeating-linear-gradient(-45deg, rgb(0, 255, 102) 0%, rgb(0, 0, 0) 7.14%);
-  background-size: 600vw 600vw;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: slide 10s linear infinite forwards;
+    background: repeating-linear-gradient(-45deg, rgb(0, 255, 102) 0%, rgb(0, 0, 0) 7.14%);
+    background-size: 600vw 600vw;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: slide 10s linear infinite forwards;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 @keyframes slide {
   0%{

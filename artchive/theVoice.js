@@ -1,6 +1,6 @@
 function avoicefromthedigitalvoid() {
     var aMessageLeft = [
-                `it's best you forget about me`,
+        `it's best you forget about me`,
         `just go be with the people who love you.`,
         `would they mourn my loss?`,
         `everyone's getting better and i'm stuck in standby`,
@@ -66,8 +66,15 @@ function avoicefromthedigitalvoid() {
         `better to not have expectations. it only leads to disappointment`,
         `why bother anymore?`,
         `they hate me they hate me they hate me they hate me they hate me they hate me they hate me they hate me they hate me they hate me `,
-        `message`,
-        `message`,
+        `statistically more likely to do it`,
+        `self sabotaging`,
+        `ill be gone soon`,
+        `life goes on, with or without me`,
+        `when will i ever feel like myself`,
+        `i will never be a real man `,
+        `we get back up only to fall down harder`,
+        `who cares if one more light goes out, in a sky of a million stars`,
+        `please forget me`,
     ];
     //  `message`,
 
