@@ -551,7 +551,21 @@ function cockandballs() {
         `<span class="normalfont">randomtext.js not found</span>`,
         `dying is gay. unfortunately i am gay`,
         `MY SHAYLAAAAA`,
-        `line 554!`
+        `there's gotta be a better way to code the ultrabox site...`,
+        `i dont know what im doing with my life. sometimes im cool with it, sometimes i break apart over that fact`,
+        `i keep hearing someone calling my name but im all alone in the house`,
+        `the day i gain the courage is the day no one will ever hear from me again`,
+        `unfortunately this passive effect hasnt gone off since the day i acquired it`,
+        `lowkey deranged but we aight`,
+        `vivement`,
+        `will anything i do matter at all?`,
+        `oh oops some of the texts here are better off in another page`,
+        `dysfunctional but still working`,
+        `hiiiiiiiiiiiiiiiiiii`,
+        `sdfgdsdgsgsgdfhfsbxnmvbzxkljaiousiugfahsdjbdsfdsjkdhjfnoihzx2187wyeehfjajdspo`,
+        `it was my cat i swear`,
+        `she beat on my block til i s rank`,
+        `line 568!`
 
 
     ];

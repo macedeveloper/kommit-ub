@@ -75,6 +75,10 @@ function avoicefromthedigitalvoid() {
         `we get back up only to fall down harder`,
         `who cares if one more light goes out, in a sky of a million stars`,
         `please forget me`,
+        `a life undeserving`,
+        `ill always disappoint`,
+        `i dont deserve anything`,
+        `sorry for being a failure`,
     ];
     //  `message`,
 
