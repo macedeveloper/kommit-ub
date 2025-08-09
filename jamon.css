@@ -49,7 +49,7 @@ html{
 }
 .dealer {
     font-family: "dealer", 'Minecraftia', 'Montserrat', sans-serif;
-    font-size: large;
+    font-size: normal;
     text-transform: uppercase;
     color: rgb(206, 171, 114);
     text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
@@ -93,13 +93,22 @@ html{
 @font-face {
     font-family: 'winxp'; src: url('fonts/winxp.otf');
 }
-.winxpfont {
+.winxp {
     font-family: "winxp", 'Minecraftia', 'Montserrat', sans-serif;
     font-size: xx-large;
     line-height: 1px;
     color: rgb(255, 255, 255);
     text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
     1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+@font-face {
+    font-family: 'ggsans'; src: url('fonts/ggsansmed.ttf');
+}
+.ggsans {
+    font-family: "ggsans";
+    font-size: large;
+    font-style: normal;
 }
 
 .normalfont {
@@ -116,6 +125,8 @@ html{
     text-transform: lowercase;
     font-style: normal;
 }
+
+
 /* FONTS FONTS FONTS FONTS FONTS FONTS FONTS FONTS FONTS FONTS FONTS FONTS FONTS FONTS */
 
 
