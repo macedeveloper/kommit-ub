@@ -607,7 +607,8 @@ function cockandballs() {
         `<span class="winxp">i hope i can forget you so i can finally be free from you</span>`,
         `<span class="winxp">why as soon as we become so close we have to say goodbye</span>`,
         `SUNNY NO DON'T OPEN A DARK FOUNTA-<span class="determination" style="color:#FFCD9C">AHAHAHAHAHA (DARK FOUNTAIN ROARS OPEN)</span>`,
-        `line 610!`
+        `<span class="ggsans" style="color:#FFCD9C">"https://files.catbox.moe/jbfwh6.jpg"</span>`,
+        `line 611!`
     ];
     //  `text`,
     //  `<span class="determination">DETERMINATIONTEXT</span>`,
