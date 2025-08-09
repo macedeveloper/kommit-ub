@@ -609,7 +609,10 @@ function cockandballs() {
         `SUNNY NO DON'T OPEN A DARK FOUNTA-<span class="determination" style="color:#FFCD9C">AHAHAHAHAHA (DARK FOUNTAIN ROARS OPEN)</span>`,
         `<span class="ggsans" style="color:#FFCD9C">"https://files.catbox.moe/jbfwh6.jpg"</span>`,
         `<span class="ggsans" style="color:#FFCD9C">"Obligatory AzzyIsHere mention"</span>`,
-        `line 611!`
+        `hedgehogs? kissing? it's more likely than you think.`,
+        `sonadow mention`,
+        `I have been forced to say that sonic the hedgehog is awesome. actually, not forced, willingly because they are pretty damn cool`,
+        `line 615!`
     ];
     //  `text`,
     //  `<span class="determination">DETERMINATIONTEXT</span>`,
