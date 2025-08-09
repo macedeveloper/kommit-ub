@@ -90,6 +90,17 @@ html{
     1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
 }
 
+@font-face {
+    font-family: 'winxp'; src: url('fonts/winxp.otf');
+}
+.winxpfont {
+    font-family: "winxp", 'Minecraftia', 'Montserrat', sans-serif;
+    font-size: xx-large;
+    line-height: 1px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
 
 .normalfont {
     font-family: 'Montserrat', sans-serif;

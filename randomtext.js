@@ -1,6 +1,5 @@
 function cockandballs() {
-    var messages = [
-        `i dont know what im doing anymore!`,
+    var messages = [        `i dont know what im doing anymore!`,
         `okay ❤ yay ❤`,
         `toki a!`,
         `I'm. ‎ ‎ ‎crashing thhe fuck out!!`,
@@ -565,9 +564,40 @@ function cockandballs() {
         `sdfgdsdgsgsgdfhfsbxnmvbzxkljaiousiugfahsdjbdsfdsjkdhjfnoihzx2187wyeehfjajdspo`,
         `it was my cat i swear`,
         `she beat on my block til i s rank`,
-        `line 568!`
-
-
+        `hi sunny you're canon now`,
+        `what the fuck we have guest takeovers in the splash text now?`,
+        `<span class="winxpfont" style="color:#FFCD9C"><i>"Kommit is gay"</i>, idk, sounds very gay"<br>- Ivy (Formerly Sunny)</span>`,
+        `<span class="winxpfont" style="color:#FFCD9C">"I'M NOT RALSEI !!!<br>BUT I'M ASRIEL !!!"</span>`,
+        `<span class="winxpfont" style="color:#FFCD9C">"Kommit and uhhh... Idk, I forgot his bf name divorce arc"</span>`,
+        `<span class="winxpfont" style="color:#fecf1e">"cyberbullying victim since 2024"<br>- aster</span>`,
+        `<span class="winxpfont" style="color:#FFCD9C">I must going to the fountain... 🐺🥀⛓️💔" - Kris</span>`,
+        `<span class="winxpfont" style="color:#00FF00">"bitch ahh closet dwelling dumbass :3"</span>`,
+        `<span class="winxpfont" style="color:#00FF00">*paws at you* "can i have a cigarette"<br>- echo the gangbanger</span>`,
+        `<span class="winxpfont" style="color:#00FF00">"kommit has five guys on him rn gng"</span>`,
+        `<span class="winxpfont" style="color:#00FF00">"I'm going to send a cursed italian image if you don't take a bath"</span>`,
+        `<span class="winxpfont" style="color:#FFCD9C">"Balatro"</span>`,
+        `<span class="winxpfont" style="color:#00FF00">"seven thousand fucking pidgeons, eat this man !!"</span>`,
+        `<span class="winxpfont" style="color:#FFCD9C">"My bread burnt :("</span>`,
+        `<span class="winxpfont" style="color:#fecf1e">"mission successful"<br>"pasta rights revoked"</span>`,
+        `<span class="winxpfont" style="color:#FFCD9C">"I haven't killed all those children 4 years ago"</span>`,
+        `<span class="winxpfont" style="color:#00FF00">"I have thirsty babies-"</span>`,
+        `<span class="winxpfont" style="color:#FFCD9C">"I'LL WATCH AS YOU BLEED"</span>`,
+        `/komi/`,
+        `/disgrace/`,
+        `why is my code depressed what the fu- oh right, i wrote it`,
+        `honey wake up we got robots losing their fucking minds`,
+        `since i draw does that mean i'm an ai image generator`,
+        `life admin!`,
+        `we grieve different. *insane fucking beat plays*`,
+        `end rod minecratf 🤤🤤🤤`,
+        `those with the windows xp font are guests!! please welcome them and then kick them out. i need them outta here`,
+        `i'm closer to hell than you are.`,
+        `got jumpscared by a child 3 consecutive times!`,
+        `i need more games like exit 8 if you have any please recommend them to me i'm begging you`,
+        `i'll follow you forevermore.`,
+        `i have abandoned my humanity to be one with the robots`,
+        `please revere me, my purpose eludes me`,
+        `line 600!`
     ];
     //  `text`,
     //  `<span class="determination">DETERMINATIONTEXT</span>`,
@@ -579,6 +609,7 @@ function cockandballs() {
     //  `<span class="omori">OMORITEXT</span>`,
     //  `<span class="balatro">JIMBOFONT</span>`,
     //  `<span class="normalfont">NORMALFONT</span>`,
+    //  `<span class="winxpfont" style="color:#FFCD9C">WINDOWSXPFONT</span>`,
 
 
     var rText = Math.floor(Math.random() * messages.length);

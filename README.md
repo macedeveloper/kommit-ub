@@ -1,3 +1,10 @@
+# latest additions:
+- some new splash text and some new favourite songs
+- added /komi : heavily inspired by https://deltarune.com/dess/
+- added /disgrace : I am a disgrace. I am a disgrace. I am a disgrace. I-I-I-I-I-I-I-I-I-I-m not going insane.
+
+#
+
 # wawa
 my cool and epic and awesoe site or somethign woag
 so cool right
