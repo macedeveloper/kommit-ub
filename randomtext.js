@@ -608,6 +608,7 @@ function cockandballs() {
         `<span class="winxp">why as soon as we become so close we have to say goodbye</span>`,
         `SUNNY NO DON'T OPEN A DARK FOUNTA-<span class="determination" style="color:#FFCD9C">AHAHAHAHAHA (DARK FOUNTAIN ROARS OPEN)</span>`,
         `<span class="ggsans" style="color:#FFCD9C">"https://files.catbox.moe/jbfwh6.jpg"</span>`,
+        `<span class="ggsans" style="color:#FFCD9C">"Obligatory AzzyIsHere mention"</span>`,
         `line 611!`
     ];
     //  `text`,
