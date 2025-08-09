@@ -612,7 +612,8 @@ function cockandballs() {
         `hedgehogs? kissing? it's more likely than you think.`,
         `sonadow mention`,
         `I have been forced to say that sonic the hedgehog is awesome. actually, not forced, willingly because it is pretty damn cool`,
-        `line 615!`
+        `sonazzy is canon`,
+        `line 616!`
     ];
     //  `text`,
     //  `<span class="determination">DETERMINATIONTEXT</span>`,
