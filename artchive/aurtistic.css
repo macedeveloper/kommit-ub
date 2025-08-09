@@ -52,20 +52,17 @@ html {
 
 
 @font-face {
-    font-family: 'determination'; src: url('/fonts/DeterminationSansWeb.ttf');
+    font-family: 'winxp'; src: url('/fonts/winxp.otf');
 }
 .familiar {
-    font-family: "determination", 'Lexend', 'Calibri', sans-serif;
+    font-family: "winxp", 'Lexend', 'Calibri', sans-serif;
     font-style: normal;
     color: rgb(0, 0, 0);
     cursor: default;
     font-size: large;
 }
-@font-face {
-    font-family: 'determination'; src: url('/fonts/DeterminationSansWeb.ttf');
-}
 .comfort {
-    font-family: "determination", 'Lexend', 'Calibri', sans-serif;
+    font-family: "winxp", 'Lexend', 'Calibri', sans-serif;
     font-style: italic;
     color: rgb(0, 0, 0);
     cursor: default;
