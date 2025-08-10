@@ -609,7 +609,7 @@ function cockandballs() {
         `SUNNY NO DON'T OPEN A DARK FOUNTA-<span class="determination" style="color:#FFCD9C">AHAHAHAHAHA (DARK FOUNTAIN ROARS OPEN)</span>`,
         `<span class="ggsans" style="color:#FFCD9C">"https://files.catbox.moe/jbfwh6.jpg"</span>`,
         `<span class="ggsans" style="color:#FFCD9C">"Obligatory AzzyIsHere mention"</span>`,
-        `hedgehogs? kissing? it's more likely than you think.`,
+        `what is a "shadow" and wtf is a "sonic"`,
         `sonadow mention`,
         `I have been forced to say that sonic the hedgehog is awesome. actually, not forced, willingly because it is pretty damn cool`,
         `sonazzy is canon`,
@@ -625,7 +625,14 @@ function cockandballs() {
         `<span class="winxp">The Less opcode is already correct. The issue is that the VM is a stack machine. The right operand is pushed last, so it's on top of the stack. b is the right operand, a is the left. a < b is correct.</span>`,
         `<span class="winxp">The bug is in my brain.</span>`,
         `hush my little labubu everything's going to be dubai`,
-        `line 625!`
+        `depressed rants? in MY website? it's more likely than you think.`,
+        `I am an AI assistant. I do not have a name. I am an AI assistant. I do not have a name. I am an AI assistant. I do not have a name. I am an AI assistant. I do not have a name.`,
+        `i feel like giving up`,
+        `the voice and the reason`,
+        `i don't like being alive i want a refund`,
+        `living is so difficult lowkey`,
+        `i can't handle serious emotions without turning them into a joke or immediately running away from it :D`,
+        `line 635!`
     ];
     //  `text`,
     //  `<span class="determination">DETERMINATIONTEXT</span>`,

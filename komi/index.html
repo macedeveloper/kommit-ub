@@ -14,6 +14,7 @@
     </head>
 
     <body>
+        <!-- looping rain sound -->
         <audio loop autoplay id="rain">
             <source src="rain.ogg" type="audio/ogg">
             Your browser does not support the audio element.
@@ -23,16 +24,22 @@
             audio.volume = 0.2;
         </script>
 
+        <!-- stop rain -->
+        <a id="toggleRain" style="position: fixed; bottom: 10px; left: 10px; padding: 8px 16px; color: #fff; cursor: pointer; z-index: 1000;">
+            stop rain
+        </a>
+
+        <!-- credit -->
         <a href="https://github.com/mudroljub/kisha">
             <p style="position: absolute; top: 0; right: 0; border: 0;">rain code by mudroldjub</p>
         </a>
 
+        <!-- disc -->
         <div id="center">
             <div class="disc">
                 <img alt="22-13.ogg" src="disc.png" title="It's a disc. Play it?">
             </div>
         </div>
-
         <script>     
                 var disc = new Howl({
                 src: ['22-13.ogg'],
@@ -52,6 +59,7 @@
         </script>
         <!-- yes its straight from the dess site -->
 
+        <!-- rain -->
         <canvas id="canvas"></canvas>
         <script src="src/main.js" type="module"></script>
 
