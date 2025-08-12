@@ -18,6 +18,7 @@ h1{
 summary:hover{
     color: #0099ff;
     cursor: pointer;
+    user-select: none;
 }
 
 .yap{
