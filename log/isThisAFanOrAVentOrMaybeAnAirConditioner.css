@@ -16,6 +16,9 @@ h1{
 }
 
 summary{
+    display: block;
+    margin: 1%;
+    white-space: pre-wrap;
     padding-left: 4%;
     user-select: none;
 }
