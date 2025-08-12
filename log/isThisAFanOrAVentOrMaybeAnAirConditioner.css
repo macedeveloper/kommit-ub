@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 html{
     font-family: 'Ubuntu Mono', sans-serif;
     text-align: left;
@@ -8,9 +7,7 @@ html{
     color: #0099ff;
     background-color: #000000;
 
-    word-wrap: break-word;
-
-    line-height: 30px;
+    line-height: 25px;
 }
 
 h1{
@@ -18,12 +15,11 @@ h1{
     margin: 2%;
 }
 
-.linebreak{
-    display: block;
-    margin: 1%;
-    color: #0099ff91;
-    white-space: pre-wrap;
+summary:hover{
+    color: #0099ff;
+    cursor: pointer;
 }
+
 .yap{
     display: block;
     margin: 1%;
