@@ -15,6 +15,10 @@ h1{
     margin: 2%;
 }
 
+summary{
+    padding-left: 4%;
+    user-select: none;
+}
 summary:hover{
     color: #0099ff;
     cursor: pointer;
