@@ -225,6 +225,14 @@ footer .small{
  because of something,, and i accidentlay typed in the code due to the excit emetmn
  :33 I LOVE IT SO MUCH AAAARFHJGH its peak its so peak its Peam,, pea, peak ahsjfs  , ,, gFhfhfg*/
 
+.tablecontainer {
+    display:block;
+    margin: 4%;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
 .dualcontainer {
     justify-content: space-between; /* space between the image and the tex */
     gap: 30px;

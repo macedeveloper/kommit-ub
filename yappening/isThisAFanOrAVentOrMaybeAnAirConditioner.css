@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+html{
+    font-family: 'Ubuntu Mono', sans-serif;
+    text-align: left;
+    font-size: large;
+    color: #0099ff;
+    background-color: #000000;
+
+    word-wrap: break-word;
+
+    line-height: 30px;
+}
+
+h1{
+    /* title */
+    margin: 2%;
+}
+
+.linebreak{
+    display: block;
+    margin: 1%;
+    color: #0099ff91;
+    white-space: pre-wrap;
+}
+.yap{
+    display: block;
+    margin: 1%;
+    white-space: pre-wrap;
+}
+.pastyap{
+    display: block;
+    margin: 1%;
+    color: #0099ff91;
+    white-space: pre-wrap;
+}
+
+.small{
+    font-size: small;
+    line-height: 0px;
+}
+
+
