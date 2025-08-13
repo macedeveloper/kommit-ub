@@ -3,46 +3,50 @@
 html{
     font-family: 'Ubuntu Mono', sans-serif;
     text-align: left;
-    font-size: large;
-    color: #0099ff;
+    color: #adb7bc;
     background-color: #000000;
-
+    margin: 2%;
     line-height: 25px;
 }
 
 h1{
     /* title */
+    color: #ffffff;
+    margin: 2%;
+    font-size: xx-large;
+}
+h3{
+    color: #ffffff;
     margin: 2%;
 }
 
 summary{
     display: block;
-    margin: 1%;
-    white-space: pre-wrap;
-    padding-left: 4%;
+    white-space: pre-line;
     user-select: none;
 }
 summary:hover{
-    color: #0099ff;
+    color: #adb7bc;
     cursor: pointer;
     user-select: none;
 }
 
-.yap{
-    display: block;
-    margin: 1%;
-    white-space: pre-wrap;
+strong{
+    padding-left: 20px;
 }
-.pastyap{
-    display: block;
-    margin: 1%;
-    color: #0099ff91;
-    white-space: pre-wrap;
-}
-
 .small{
     font-size: small;
     line-height: 0px;
+}
+
+.yap{
+    display: block;
+    white-space: pre-line;
+}
+.pastyap{
+    display: block;
+    color: #76728f92;
+    white-space: pre-line;
 }
 
 

@@ -472,7 +472,7 @@ function cockandballs() {
         `1 robuck`,
         `zendaya's hat`,
         `Nobody Knows I'm Gooning Right Now... Secretly Gooning in Public wit...`,
-        `its true. i have a severe allergy and phobia to overw*tch. please refer to me as a girl from now on, i also have lost privileges to the f slur`,
+        `i was making a palette, made a colour and named it 'femmy pink', then krita crashed`,
         `what does dpib;e pr mptjomg dp`,
         `shows you my shaboingaboing`,
         `dont look in the source code its awful`,
