@@ -14,12 +14,13 @@ h1{
     /* title */
     color: #ffffff;
     margin-left: 2%;
-    font-size: x-large;
+    font-size: large;
 }
 h3{
     /* subtitle splash text */
     color: #ffffff;
     margin-left: 2%;
+    font-size: normal;
     font-weight: normal;
 }
 
