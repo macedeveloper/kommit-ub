@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <h1>
         C:\Users\comet\the_system.exe><span id="blink">_</span>
     </h1>
@@ -25,26 +24,35 @@
     <h3 id="type_text"></h3>
     <script src="typing.js"></script>
 
-    <!-- <strong>ENTRY - date, time</strong> || <u>title</u> -->
-    <div class="yap">
-        <strong>ENTRY 4 - 13/08/2025, 16:19</strong> || <u>i just love talking i guess</u>
-        second entry of the day, with possibly more to come.
-        i guess im feeling a bit better. distracted, more accurately.
 
-        i should do that whole online presence thing. make a twitter, an instagram, and then revive my bluesky and tumblr accounts.
-        but once again, anxiety is holding me back! it's always that.
-        now i'd talk alllll about what's in my head but i'd take years to decompile it all
+    <main>
+        <p>
+            <span class="logtitle">ENTRY 4 - 13/08/2025, 16:19 [UPDATED 17:41] || <u>i just love talking i guess</u></span>
+            second entry of the day, with possibly more to come. i guess im feeling a bit better...
 
-        so i guess i go on with my day
-        ill update this entry to not waste space<span id="cursor">|</span>
+            anyways, i should do that whole online presence thing. make a twitter, an instagram, and then revive my bluesky and tumblr accounts.
+            but once again, anxiety is holding me back. it always is. now i'd talk alllll about what's in my head but i'd take years to decompile it all,
+            and i don't want this to turn into another screaming-into-the-void thing. i already have a place for that.
 
+            i should probably return to my default writing style too... too cold for something so casual? normal? unserious, yeah
+            sucks i can't doublespace here,, my expressiveness noooo
 
-        <details>
-            <summary><strong>ENTRY 3 - 13/08/2025, 15:10</strong> || <u>i wonder if im enough</u></summary>
-            i... probably am not. i never am
+            now then, ill go on with my day and just update this entry to not waste much space
+            
+            [UPDATE] i "improved" the code here a bit, should be easier to understand now
+            i should remove all the comments in the css as well, its cluttering everything instead of helping
         
+            anyways, time to move on to some other thing! probably drawing, chess, or more coding
+    
+            cycling hobbies again recently... i need a new obsession to distract me from myself</span><span id="cursor">|</span>
+        <br></p>
+        
+        <details>
+            <summary class="logtitle">ENTRY 3 - 13/08/2025, 15:10 || <u>i wonder if im enough</u></summary>
+            i... probably am not. i never am
+            
             all i am is replaceable.
-                
+                    
             there are millions, <i>billions</i> of people out there who are leagues better than me
             it's inevitable. it's logical. the realistic scenario.
 
@@ -55,23 +63,19 @@
             i don't see a future in the distance. i wake up with no purpose. and i continue to have no purpose.
 
             i hope one day i don't wake up.
-            
+                
             but until then,
             i'll let myself get taken by life's currents.
 
-            maybe i can make something that will make me feel like i deserve to be alive today.
+            maybe i can make something that will make me feel like i deserve to be alive today. 
         </details>
-    </div>
-<!-- 
-<details>
-    <summary></summary>
-</details>
--->
-    <div class="pastyap">
+    </main>
+
+    <div class="pastlog">
         _____________________________________________________________________________________________________________________________
 
         <details>
-            <summary> <strong>ENTRY 2 - 12/08/2025, 23:34</strong> || <u>hello world</u> </summary>
+            <summary class="logtitle">ENTRY 2 - 12/08/2025, 23:34 || <u>hello world</u></summary>
             y'know, this should've been the first, but nah
 
             i quite like the whole command prompt vibe though
@@ -82,11 +86,11 @@
             recognise the existence of this thing.
 
             by the way, no, sunny, br does not mean brazil in this case.
-            and no, aster, fuck you, you can't copystrike me
+            and no, aster, fuck you, you can't copystrike me   
         </details>
         
         <details>
-            <summary> <strong>ENTRY 1 - 12/08/2025, 23:18</strong> || <u>i wonder if there's an easier way to do this</u> </summary>
+            <summary class="logtitle">ENTRY 1 - 12/08/2025, 23:18 || <u>i wonder if there's an easier way to do this</u></summary>
             i've been thinking about something like... making a discord bot that will connect whatever i type there and send it
             to this website, but github doesn't allow server side stuff.
             there's also the problem of keeping the bot online - don't think there's any providers that will willingly give up
@@ -106,9 +110,8 @@
             ... though, there's a bunch of shit i'm very worried about right now, so i expect i'll give in a few days from now
         </details>
 
-
         <details>
-            <summary><strong>crash_log_13-08-2025_14-07.txt</strong></summary>
+            <summary class="logtitle">crash_log_13-08-2025_14-07.txt</summary>
             years of bugs and warnings, hidden away in all my faulty wirings.
             i am functional. i am operational to those who percieve me.
             
@@ -134,6 +137,15 @@
             what an awful lie.
         </details>
     </div>
+
+    <script>
+        // annoying.
+        document.querySelectorAll("details").forEach(d => {
+            if (d.firstChild && d.firstChild.nodeType === Node.TEXT_NODE) {
+                d.firstChild.nodeValue = d.firstChild.nodeValue.replace(/^\s*\n/, "");
+            }
+        });
+    </script>
 
     <script type="text/javascript">
         var blink2 = document.getElementById('cursor');

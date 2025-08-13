@@ -4,7 +4,7 @@ const messages = [
     `'help' is not recognized as an internal or external command, operable program or batch file.`,
     `sad machine`,
     `The bug is in my brain`,
-    `The Less opcode is already correct. The issue is that the VM is a stack machine. The right operand is pushed last, so it's on top of the stack. b is the right operand, a is the left. a < b is correct`,
+    `The Less opcode is already correct. The issue is that the VM is a stack machine. The right operand is pushed last, so it's on top of the stack. b is the right operand, a is the left. a < b is correct.`,
     `it's times like these where my mind has some things to say`,
     `why's it hard to get through a single day without a thought like: "what if you died today?"`,
     `maybe all the thoughts i have are true`,

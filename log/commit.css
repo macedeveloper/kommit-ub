@@ -7,46 +7,70 @@ html{
     background-color: #000000;
     margin: 2%;
     line-height: 25px;
+    letter-spacing: 1%;
 }
 
 h1{
     /* title */
     color: #ffffff;
-    margin: 2%;
-    font-size: xx-large;
+    margin-left: 2%;
+    font-size: x-large;
 }
 h3{
+    /* subtitle splash text */
     color: #ffffff;
-    margin: 2%;
+    margin-left: 2%;
+    font-weight: normal;
+}
+
+details{
+    white-space: pre-line;
+    display: block;
+    padding-left: 20px;
+}
+details .small{
+    font-size: small;
+    color: #adb7bc77;
 }
 
 summary{
-    display: block;
-    white-space: pre-line;
     user-select: none;
 }
 summary:hover{
-    color: #adb7bc;
+    color: #00ccff;
     cursor: pointer;
-    user-select: none;
 }
 
-strong{
-    padding-left: 20px;
-}
-.small{
-    font-size: small;
-    line-height: 0px;
+.logtitle{
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: large;
 }
 
-.yap{
-    display: block;
-    white-space: pre-line;
-}
-.pastyap{
+.pastlog{
     display: block;
     color: #8b8cacb3;
     white-space: pre-line;
 }
+.pastlog .small{
+    font-size: small;
+    color: #8b8cac68;
+}
+
+p{
+    white-space: pre-line;
+    display: block;
+    padding-left: 20px;
+}
+p .small{
+    font-size: small;
+    color: #adb7bc77;
+}
+
+.spaced{
+    letter-spacing: 4%;
+}
+
+
 
 
