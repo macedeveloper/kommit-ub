@@ -632,6 +632,11 @@ function cockandballs() {
         `i don't like being alive i want a refund`,
         `living is so difficult lowkey`,
         `i can't handle serious emotions without turning them into a joke or immediately running away from it :D`,
+        `someone found the fanfiction.`,
+        `ough im kommitting it`,
+        `the stark contrast between this splash text and the log splash text is insane`,
+        `text`,
+        `text`,
         `line 635!`
     ];
     //  `text`,

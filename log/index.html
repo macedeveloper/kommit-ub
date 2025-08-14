@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="fade-in">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<div class="vignette"></div>
+
+<body class="crttvreal" onclick=mouseclick()>
+
+    <!-- mouse click -->
+    <script src="click.js"></script>
+    <!-- looping ambient hum -->
+    <audio loop autoplay id="hum">
+        <source src="hum.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <script>
+        var audio = document.getElementById("hum");
+        audio.volume = 0.3;
+    </script>
+    <!-- startup thing -->
+    <audio autoplay id="startup">
+        <source src="startup.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <script>
+        var audio = document.getElementById("startup");
+        audio.volume = 0.2;
+    </script>
+
+
     <h1>
         C:\Users\comet\the_system.exe><span id="blink">_</span>
     </h1>
@@ -21,11 +46,12 @@
     </script>
 
     <!--we3schools i love you btw-->
-    <h3 id="type_text"></h3>
+    <h3 id="type_text">...</h3>
     <script src="typing.js"></script>
-
+    <br>
 
     <main>
+        <!--
         <p> <span class="logtitle"></span>
             C:\Users\comet>fetch
         Unable to execute command: No available log to print.
@@ -33,7 +59,30 @@
 
             C:\Users\comet><span id="cursor">|</span>
         <br></p>
+        -->
 
+        <!-- useful characters: ▒ -   -  -->
+        <p> <span class="logtitle">ENTRY 6 - 14/08/2025, 22:31 || <u>Untitled</u></span>
+            today was a rollercoaster. don't want to dump it all here as it contains private shit but
+
+            it started off okay i guess, then it spiraled and spiraled and spiraled and spiraled and spiraled and spiraled and spiraled
+            my fault, as always. i just ruin everything and make it worse
+            i can't help anyone. why am i so incapable of doing basic shit? why am i so   incapable?
+            
+            i suppose there was one good thing today, i think i made him happy for a bit
+            or just  distracted (most likely the scenario)
+    
+            i worked on this page too - modifications such as sound additions, rgb coloured text and a crt effect
+            <span class="small">inspired by a certain someone. you know who you are</span>
+
+            anyways yeah thats all i really did today. i just rotted in bed and... the earlier shit
+
+            will also be distancing myself for a bit. it won't help (it never does) but
+            i feel like i deserve to suffer so i will
+
+            ending this off now. dunno if anything else will happen. hoping for the best but hope doesn't get me very far anymore
+            it only makes me be able to fall further<span id="cursor">|</span>
+        <br></p>
 
     </main>
 
@@ -48,7 +97,7 @@
         </details>
 
         <details>
-            <summary class="logtitle">ENTRY 4 - 13/08/2025, 16:19 [UPDATED 17:41] [UPDATED 21:35] || <u>i just love talking i guess</u></summary>
+            <summary class="logtitle">ENTRY 4 - 13/08/2025, 16:19 [UPDATED 17:41, 21:35] || <u>i just love talking i guess</u></summary>
             second entry of the day, with possibly more to come. i guess im feeling a bit better...
 
             anyways, i should do that whole online presence thing. make a twitter, an instagram, and then revive my bluesky and tumblr accounts.

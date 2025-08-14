@@ -5,9 +5,62 @@ html{
     text-align: left;
     color: #adb7bc;
     background-color: #000000;
-    margin: 2%;
+
     line-height: 25px;
     letter-spacing: 1%;
+}
+
+.vignette {
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    opacity: 0.5;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.crttvreal {
+    /*ill just apply this to body because i dont care enough to fix it to be correct */
+    background-size: cover;
+    background: linear-gradient(to bottom, #000000, #0d0d0d);
+    background-size: 100% 10px;
+    text-shadow: 0 0 10px #adb7bc8f;
+    filter: blur(0.6px);
+    border-radius: 50px;
+}
+@media screen{
+    .crttvreal {
+        animation: lines infinite 0.5s linear;
+    }
+} 
+@keyframes lines{
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 -10px;
+    }
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+body{
+    margin: 2%;
 }
 
 h1{
@@ -22,6 +75,9 @@ h3{
     margin-left: 2%;
     font-size: normal;
     font-weight: normal;
+}
+.crttvreal .h1 .h3{
+    text-shadow: 0 0 10px #ffffff;
 }
 
 details{
@@ -41,6 +97,9 @@ summary:hover{
     color: #00ccff;
     cursor: pointer;
 }
+.crttvreal summary:hover{
+    text-shadow: 0 0 10px #00ccff8f;
+}
 
 .logtitle{
     padding-left: 25px;
@@ -55,7 +114,13 @@ summary:hover{
 }
 .pastlog .small{
     font-size: small;
-    color: #8b8cac68;
+    color: #8b8cacb3;
+}
+.crttvreal .pastlog{
+    text-shadow: 0 0 10px #8b8cac66;
+}
+.crttvreal .pastlog .small{
+    text-shadow: 0 0 10px #8b8cac66;
 }
 
 p{
@@ -65,11 +130,32 @@ p{
 }
 p .small{
     font-size: small;
-    color: #adb7bc77;
+    color: #adb7bc;
 }
 
 .spaced{
     letter-spacing: 4%;
+}
+
+.red{
+    color: red;
+}
+.crttvreal .red{
+    text-shadow: 0 0 10px #ff00008f;
+}
+
+.green{
+    color: green;
+}
+.crttvreal .green{
+    text-shadow: 0 0 10px #00ff008f;
+}
+
+.blue{
+    color: blue;
+}
+.crttvreal .blue{
+    text-shadow: 0 0 10px #0000ff8f;
 }
 
 
