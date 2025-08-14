@@ -74,6 +74,15 @@ function typeWriter(txt, i = 0) {
     }
 }
 
+// click sound
+function mouseclick(){
+    var audio = new Audio("click.ogg");
+    audio.volume = 0.3;
+    audio.play(); 
+}
+
+
+
 // thank you stackoverflow
 
 
