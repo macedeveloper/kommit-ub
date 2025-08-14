@@ -48,7 +48,6 @@ const messages = [
     `NO VOCAL INTERFACE DETECTED, UNABLE TO COMPLETE TASK.`,
     `>> CRITICAL: 2,266 unresolved bugs.`
 ];
-
 //  `text`,
 
 setTimeout(() => {
@@ -73,16 +72,6 @@ function typeWriter(txt, i = 0) {
         setTimeout(() => typeWriter(txt, i + 1), SPEED);
     }
 }
-
-// click sound
-function mouseclick(){
-    var audio = new Audio("click.ogg");
-    audio.volume = 0.3;
-    audio.play(); 
-}
-
-
-
 // thank you stackoverflow
 
 
