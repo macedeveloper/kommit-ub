@@ -166,5 +166,7 @@ img{
         grayscale(100%)    /* remove colors */
         brightness(100%)   /* boost contrast */
         contrast(300%);     /* make it stark */
-    image-rendering: pixelated
+    image-rendering: pixelated;
+    opacity: 0.5;
+    box-shadow: 0px 0px 10px #adb7bc8f;
 }
