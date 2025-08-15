@@ -46,6 +46,17 @@ const messages = [
     `lime test windows`,
     `i should shut up more often`,
     `NO VOCAL INTERFACE DETECTED, UNABLE TO COMPLETE TASK.`,
+    `Hello, User!`,
+    `Welcome back, Administrator!`,
+    `Loading...`,
+    `Current branch: master`,
+    `No controller connected.`,
+    `No head is connected. No body is connected. No arms are connected. No legs are connected. No skin is connected. No ears are connected. No face is connected.`,
+    `SURVEY_PROGRAM`,
+    `YOU ACCEPT EVERYTHING THAT WILL HAPPEN FROM NOW ON.`,
+    `HOW DO YOU FEEL ABOUT YOUR CREATION? (IT WILL NOT HEAR.)`,
+    `YOU ACKNOWLEDGE THE POSSIBILITY OF PAIN AND SEIZURE.`,
+    `the call of the void`,
     `>> CRITICAL: 2,266 unresolved bugs.`
 ];
 //  `text`,
