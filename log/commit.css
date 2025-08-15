@@ -8,6 +8,9 @@ html{
 
     line-height: 25px;
     letter-spacing: 1%;
+
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .vignette {
@@ -87,7 +90,6 @@ details{
 }
 details .small{
     font-size: small;
-    color: #adb7bc77;
 }
 
 summary{
@@ -129,12 +131,11 @@ p{
     padding-left: 20px;
 }
 p .small{
-    font-size: small;
-    color: #adb7bc;
+    font-size: small
 }
 
 .spaced{
-    letter-spacing: 4%;
+    letter-spacing: 12%;
 }
 
 .red{
@@ -158,6 +159,12 @@ p .small{
     text-shadow: 0 0 10px #0000ff8f;
 }
 
-
-
-
+img{
+    max-width: 128px;
+    max-height: 128px;
+    filter:
+        grayscale(100%)    /* remove colors */
+        brightness(100%)   /* boost contrast */
+        contrast(300%);     /* make it stark */
+    image-rendering: pixelated
+}
