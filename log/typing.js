@@ -76,6 +76,12 @@ const messages = [
     `place in the world fades away`,
     `everywhere in the beginning of nowhere`,
     `I am a disgrace to all possible and impossible universes.`,
+    `i'll follow you forevermore`,
+    `good morning, and in case i dont see you: good afternoon, good evening, and good night`,
+    `good night light`,
+    `one day ill see you happy again and every hardship will be worth it`,
+    `i know i loved you from the start`,
+    `plane to catch`,
     `>> CRITICAL: 2,266 unresolved bugs.`
 ];
 //  `text`,
