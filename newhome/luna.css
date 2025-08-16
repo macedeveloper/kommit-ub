@@ -3,17 +3,14 @@
 html {
     font-family: "Lato", sans-serif;
     scrollbar-color: #6b1ceb #2E1E66;
-    color:#d3d1ff;
+
+    background-color: #000000;
+    background-size: cover;
+    background-image: url("../images/galaxy.jpg");
+    background-repeat: no-repeat;
 }
 
 body {
-    background-color: black;
-    background-image: url("../images/galaxy.jpg");
-
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    padding: 0;
-    max-width: 900px;
-    position: relative;
-    display: block;
+    color:#d3d1ff;
 }
+

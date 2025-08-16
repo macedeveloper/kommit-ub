@@ -1,4 +1,6 @@
 # latest additions:
+- added depression (stacking effect)
+- /log : yap
 - some new splash text and some new favourite songs
 - added /komi : heavily inspired by https://deltarune.com/dess/
 - added /disgrace : I am a disgrace. I am a disgrace. I am a disgrace. I-I-I-I-I-I-I-I-I-I-m not going insane.
