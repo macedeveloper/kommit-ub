@@ -7,7 +7,6 @@ html{
     background-color: #000000;
 
     line-height: 25px;
-    letter-spacing: 1%;
 
     max-width: 100%;
     overflow-x: hidden;
@@ -135,7 +134,11 @@ p .small{
 }
 
 .spaced{
-    letter-spacing: 12%;
+    letter-spacing: 2px;
+}
+
+s{
+    opacity: 60%;
 }
 
 .red{
