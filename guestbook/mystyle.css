@@ -1,5 +1,27 @@
+html{
+    background: #222122;
+}
+
+.titleandstuff{
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+    margin-top: 0em;
+    padding-top: 10px;
+
+}
+.titleandstuff h1{
+    color: #3cbeb9;
+}
+.titleandstuff p{
+    color: #ffffff;
+}
+
+.small{
+    font-size: small;
+}
+
+
 body {
-    background: #cddbe2;
     font-family: 'Quantico', sans-serif;
 }
 
@@ -13,10 +35,6 @@ body {
     margin-top: 1.5em;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 0em;
-}
 
 h3 {
     position: relative;
@@ -38,10 +56,6 @@ a {
 a:hover {
     background: #ed1b51;
     color: #fff;
-}
-
-h1 {
-    font-family: 'Ovo', serif;
 }
 
 .left-block,
@@ -67,6 +81,9 @@ h1 {
 
 .entry:nth-child(even) {
     background: #3cbeb9;
+    border-width: 2px;
+    border-color: #636363;
+    border-style: solid;
 }
 
 .entry-info {

@@ -53,6 +53,7 @@ function fetchGuestBook_Entries() {
 
 
             /// Adding all entries to all entry section
+
             data.forEach((row) => {
 
                 // Sanitize Data
@@ -69,8 +70,10 @@ function fetchGuestBook_Entries() {
                 var splitTime = row.Timestamp.split(' ')[0];
                 var splitTime_1 = row.Timestamp.split(' ').pop();
 
+
                 // Work in Progress - Convert to 24 Hour
                 let ConvertedTime = tConvert(splitTime_1)
+
 
                 document.getElementById("AllEntries_Content").innerHTML += `
 					 <div class="entry">
@@ -84,6 +87,8 @@ function fetchGuestBook_Entries() {
 
             });
         });
+
+
 }
 
 
@@ -91,6 +96,8 @@ function fetchGuestBook_Entries() {
 var Gform = document.getElementById("gform")
 Gform.addEventListener('submit', (e) => {
     validateRecaptcha();
+
+
 })
 
 // Validate Recaptcha
@@ -111,12 +118,16 @@ function validateRecaptcha() {
 // https://stackoverflow.com/questions/13898423/javascript-convert-24-hour-time-of-day-string-to-12-hour-time-with-am-pm-and-no
 
 function tConvert(time) {
+
     return time; // return adjusted time or original string
 }
 
+
+
+
 var subscribeForm = document.getElementById("SendForm")
 
-/// Profanity Filter --------------------------------------------------------
+/// Profanity Filter
 
 // Enter the words to be not allowed in form submission for Profanity Filter
 var swear_words_arr = new Array("tranny", "troon", "dyke", "nigga", "nigger");
@@ -156,21 +167,30 @@ function validate_text() {
     margin-top: 2em;">Your message will not be added! \nThe following illegal words were found:</h1> <p>${alert_text}</p>`
         // Fade message in
         subscribeForm.setAttribute("style", "-webkit-animation: fadeIn 1s; animation: fadeIn 1s;  animation-fill-mode: forwards;");
+
+
     }
     else  // if no profanities found - check if Captcha is complete
     {
 
+
+
         var response = grecaptcha.getResponse();
         if (response.length === 0) { // if Captcha is not complete
             // do nothing
+
         } else { // add values to guestbook
+
             document.gform.submit();
+
         }
 
 
         // Timeout is needed for form to properly submit with animation
 
         setTimeout(function () {
+
+
 
             // Hide the form values 
             Gform.setAttribute("style", "display:none;");
@@ -194,8 +214,10 @@ var subscribeForm = document.getElementById("SendForm")
 
 function ResetSwearForm() {
 
+
     // Fade out form to make things look nice
     subscribeForm.setAttribute("style", "-webkit-animation: fadeOut 1s; animation: fadeOut 1s;  animation-fill-mode: forwards;");
+
 
     subscribeForm.innerHTML = ` <h1>Sign The Guestbook</h1>
 		<a class="close" href="#">&times;</a>
@@ -205,6 +227,12 @@ function ResetSwearForm() {
       <br>
 		
     <form name="gform" id="gform" enctype="text/plain" action="${Google_Form_Link}" target="hidden_iframe">
+    
+    
+    
+    
+     
+  
     
        <label for="${GOOGLE_ENTRY_ID_Name}"  class="aterisk_after">Name </label>
       
@@ -232,7 +260,7 @@ function ResetSwearForm() {
 	</div>
 </div> 
 </div>
- 
+     
 	     
 `
 

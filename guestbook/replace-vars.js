@@ -10,13 +10,5 @@ GuestBook.innerHTML = GuestBook.innerHTML
 
     .replace(/GOOGLE_Captcha_Key/g, CaptchaKey)
 
-
-
-
-
-
-
-
-
     .replace(/GOOGLE_FORM_URL/g, Google_Form_Link)
 ;
