@@ -1,5 +1,6 @@
 html{
     background: #222122;
+    overflow-x: hidden;
 }
 
 .titleandstuff{
@@ -10,14 +11,82 @@ html{
 
 }
 .titleandstuff h1{
-    color: #3cbeb9;
+    color: #29e29c;
+
+    background: linear-gradient(
+        to right,
+        #00ff9d 20%,
+        #00ffe5 30%,
+        #00b3ff 50%,
+        #665bff 70%,
+        #f36fff 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+    /*https://www.amitmerchant.com/animated-gradient-effect-in-css/ thanks broski*/
 }
 .titleandstuff p{
-    color: #ffffff;
+    color: #cddbe2;
 }
 
 .small{
     font-size: small;
+    padding-left: 10px;
+    opacity: 0.5;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+.links {
+    margin-top: 2em;
+}
+.links a {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+h3 {
+    position: relative;
+    top: 2em;
+    left: 23%;
+    color: #29e29c;
+}
+
+p {
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: #29e29c;
+    border: #29e29c;
+    border-width: 1px;
+    border-style: solid;
+    transition: all 0.25s ease;
+}
+a:hover {
+    background: #29e29c;
+    border: #3c77be00;
+    border-width: 5px;
+    border-style: solid;
+    color: #222122;
 }
 
 
@@ -36,54 +105,20 @@ body {
 }
 
 
-h3 {
-    position: relative;
-    top: 2em;
-    left: 23%;
-}
-
-p {
-    line-height: 150%;
-}
-
-a {
-    text-decoration: none;
-    color: #cddbe2;
-    background: #a51c3c;
-    transition: all 0.25s ease;
-}
-
-a:hover {
-    background: #ed1b51;
-    color: #fff;
-}
-
-.left-block,
-.right-block {
-    float: left;
-    padding: 1.5em;
-    box-sizing: border-box;
-}
-
-.left-block {
-    width: 70%;
-}
-
-.right-block {
-    width: 30%;
-}
-
 .entry {
-    background: #5ec6c8;
+    border: #29e29b7b;
+    border-width: 2px;
+    border-style: solid;
     padding: 0.5rem 1.5rem;
     transition: background 0.25s ease;
+    margin-bottom: 2px;
 }
 
 .entry:nth-child(even) {
-    background: #3cbeb9;
+    border: #cddbe27b;
     border-width: 2px;
-    border-color: #636363;
     border-style: solid;
+    margin-bottom: 2px;
 }
 
 .entry-info {
@@ -95,15 +130,30 @@ a:hover {
 
 .entry-info p {
     margin-bottom: 0.125rem;
+    color: #cddbe2;
 }
 
 .entry-info .author {
-    color: #a51c3c;
+    color: #29e29c;
     font-weight: bold;
+    font-style: normal;
+    font-size: medium;
+}
+
+.entry-info .website {
+    color: #29e29c;
+    text-decoration: underline;
+    border-style: none;
+}
+.entry-info .website:hover {
+    color: #222122;
+    text-decoration: underline;
+    border-style: none;
 }
 
 .entry-text p {
     margin-top: 0;
+    color: #cddbe2;
 }
 
 .guestbook-links {
@@ -117,16 +167,7 @@ a:hover {
     margin: 0 0.5rem;
 }
 
-.links {
-    margin-top: 2em;
-}
 
-.links a {
-    text-align: center;
-    display: block;
-    padding: 0.5rem;
-    margin: 0.5rem 0;
-}
 
 .manage-entry {
     overflow: hidden;
@@ -183,22 +224,23 @@ img.icon {
 }
 
 .form-element {
-    width: 90%;
+    width: 100%;
     display: block;
     margin: 1em 0;
     padding: 0.5em;
     border: none;
     resize: none;
-    background: #5ec6c8;
-    color: #000;
+    background: #2d2d31;
+    color: #ffffff;
 }
 
 .form-element::placeholder {
-    color: #2ba395;
+    color: #29e29b7b;
 }
 
 .form-element:focus {
-    outline-color: #ed1b51;
+    outline-color: #29e29b;
+    color: #cddbe2;
 }
 
 .form-element.short {
@@ -206,17 +248,23 @@ img.icon {
 }
 
 .form-button {
-    padding: 1rem 4rem;
-    display: inline-block;
-    border: none;
+    font-family: 'Quantico', sans-serif;
+    margin-top: 1em;
+    padding: 1rem 2rem;
     margin-right: 0.5rem;
-    color: #cddbe2;
-    background: #a51c3c;
+    display: inline-block;
+
+    border: #29e29c;
+    border-style: solid;
+    background: #222122;
+    color: #29e29c;
     transition: all 0.25s ease;
 }
 
 .form-button:hover {
-    background: #ed1b51;
+    background: #29e29c;
+    border: #222122;
+    border-style: solid;
     color: #fff;
 }
 
@@ -230,7 +278,6 @@ img.icon {
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
-    overscroll: none;
 }
 
 .overlay:target {
@@ -242,17 +289,21 @@ img.icon {
 .popup {
     margin: 23px auto;
     padding: 20px;
-    background: #fff;
+    background: #222122;
     border-radius: 5px;
-    width: 30%;
-    position: relative;
+    width: 50%;
     transition: all 5s ease-in-out;
+
+    position: fixed;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .popup h2 {
-    margin-top: 0;
-    color: #333;
-    font-family: Tahoma, Arial, sans-serif;
+    margin-top: 10px;
+    color: #cddbe2;
+    font-family: 'Quantico', sans-serif;
 }
 
 .popup .close {
@@ -260,14 +311,17 @@ img.icon {
     top: 20px;
     right: 30px;
     transition: all 200ms;
+    
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: #333;
+    color: #cddbe2;
+    border-style: none;
 }
 
 .popup .close:hover {
-    color: #06d85f;
+    color: #222122;
+    background-color: #29e29c;
 }
 
 .popup .content {
@@ -285,41 +339,52 @@ img.icon {
     }
 }
 
+
 .sign-guest-book-popup {
+    font-family: 'Quantico', sans-serif;
     height: min-content;
-    margin: 0px auto;
+
+    margin: 23px auto;
     padding: 20px;
-    background: #fff;
+    background: #222122;
     border-radius: 5px;
-    width: fit-content;
-    position: relative;
+    width: 50%;
     transition: all 5s ease-in-out;
+
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.sign-guest-book-popup h2 {
-    margin-top: 0;
-    color: #333;
-    font-family: Tahoma, Arial, sans-serif;
-}
 
 .sign-guest-book-popup .close {
     position: absolute;
     top: 20px;
     right: 30px;
     transition: all 200ms;
+    
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: #333;
+    color: #cddbe2;
+    border-style: none;
 }
 
 .sign-guest-book-popup .close:hover {
-    color: #06d85f;
+    color: #222122;
+    background-color: #29e29c;
 }
 
 .sign-guest-book-popup .content {
     max-height: 30%;
+    color: #cddbe2;
     overflow: auto;
+}
+
+.sign-guest-book-popup h2 {
+    font-family: 'Quantico', sans-serif;
+    color: #cddbe2;
 }
 
 @media screen and (max-width: 700px) {
@@ -333,35 +398,39 @@ img.icon {
 }
 
 input:not([type="submit"]) {
+    font-family: monospace;
     padding: 0.75rem;
     border-radius: 0.25rem;
     outline: 0;
     border: 1px solid #fff;
     background: 0 0;
-    color: #94949c;
+    color: #ffffff;
     font-weight: 300;
 }
 
 .emailFormCard-TextArea {
+    font-family: monospace;
     padding: -0.25rem;
     border-radius: 0.25rem;
     outline: 0;
     border: 1px solid #fff;
     background: 0 0;
-    color: #94949c;
+    color: #ffffff;
     font-weight: 300;
     resize: none;
 }
 
 input:not([type="submit"])::placeholder {
+    font-family: monospace;
     background: 0 0;
     opacity: 1;
-    color: #fff;
+    color: #29e29b7b;
     transition: color 0.2s ease-in-out;
 }
 
 input:not([type="submit"]):focus::placeholder {
     opacity: 1;
+    
 }
 
 input:not([type="submit"]):placeholder-shown {
@@ -369,11 +438,21 @@ input:not([type="submit"]):placeholder-shown {
 }
 
 input:not([type="submit"]):not(:placeholder-shown) {
-    background: #5ec6c8;
+    font-family: 'Quantico', sans-serif;
+    margin-top: 1em;
+    padding: 1rem 2rem;
+    margin-right: 0.5rem;
+    display: inline-block;
+
+    border: #29e29c;
+    border-style: solid;
+    background: #222122;
+    color: #29e29c;
+    transition: all 0.25s ease;
 }
 
 input:not([type="submit"]):not(:focus):not(:placeholder-shown):valid {
-    border: 1px solid #00a34a;
+    border: 1px solid #29e29c;
 }
 
 input:not([type="submit"]):not(:focus):not(:placeholder-shown):invalid {
@@ -386,8 +465,19 @@ input:not([type="submit"]):placeholder-shown:valid:not(:focus) {
     border: 1px solid grey;
 }
 
+input:not([type="submit"]):hover {
+    background: #29e29c;
+    border: #222122;
+    border-style: solid;
+    color: #fff;
+    cursor: pointer;
+}
+
 input:not([type="submit"]):focus {
-    background: #5ec6c8;
+    background: #0091ff;
+    border: #222122;
+    border-style: solid;
+    color: #fff;
 }
 
 form:invalid input[type="submit"] {
@@ -501,6 +591,7 @@ form:valid input[type="submit"] {
 
 .max-length:after {
     color: #e32;
-    content: "  *" " Max Length (50 Characters)";
+    font-size: small;
+    content: "  *" " max length: 128 characters";
     display: inline;
 }

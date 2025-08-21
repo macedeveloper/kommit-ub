@@ -31,6 +31,8 @@ function fetchGuestBook_Entries() {
                 // Sanitize Data
                 let SantizeName = encodeHTML(sortedInput[i].Name)
 
+                let SanitizeWebsite = encodeHTML(sortedInput[i].Email)
+
                 let SantizeResponses = encodeHTML(sortedInput[i].Guestbook_Entry)
 
                 // Dis-allow unicode comments for spam 
@@ -42,7 +44,7 @@ function fetchGuestBook_Entries() {
                 document.getElementById("json").innerHTML += `
 					 <div class="entry">
                 <div class="entry-info">
-                    <p><span class="author"> ${SantizeName}.</span> | <span class="date">${splitTime}</span> | <span class="time">${ConvertedTime}</span></p>
+                    <p><span class="author"> ${SantizeName}</span> | <a class="website" href="${SanitizeWebsite}">${SanitizeWebsite}</a> || <span class="date">${splitTime}</span> | <span class="time">${ConvertedTime}</span></p>
                 </div>
                 <div class="entry-text">
                     <p>${SantizeResponses} </p>
@@ -130,7 +132,7 @@ var subscribeForm = document.getElementById("SendForm")
 /// Profanity Filter
 
 // Enter the words to be not allowed in form submission for Profanity Filter
-var swear_words_arr = new Array("tranny", "troon", "dyke", "nigga", "nigger");
+var swear_words_arr = new Array("tranny", "troon", "nigga", "niggas", "nigger", "niggers", "niglet");
 
 var swear_alert_arr = new Array;
 var swear_alert_count = 0;
@@ -198,9 +200,8 @@ function validate_text() {
 
 
             // Show the user message their entry has been added
-            subscribeForm.innerHTML = `	<a class="close" href="#">&times;</a>
-<h1 style="text-align: center;
-    margin-top: 2em;">Your Guestbook Entry Has Added! It will appear shortly!</h1> `
+            subscribeForm.innerHTML = `<a class="close" href="#" style="color: #29e29c;">[ &times; ]</a>
+            <h2 style="text-align: center; margin-top: 2em; color: #cddbe2;">your entry has been logged! thank you for signing!</h2>`
 
         }, 500);
     }
@@ -246,7 +247,7 @@ function ResetSwearForm() {
    <label for="${GOOGLE_ENTRY_ID_Guestbook}"  class="max-length">Guestbook Entry</label>
       
       <textarea class="form-element" name="${GOOGLE_ENTRY_ID_Guestbook}" id="${GOOGLE_ENTRY_ID_Guestbook}" rows="5" cols="30" oninvalid="this.setCustomValidity('You must sign the guestbook')"
-  oninput="this.setCustomValidity('')"  maxlength="50" placeholder="Enter Your Message Here" required></textarea>
+  oninput="this.setCustomValidity('')"  maxlength="128" placeholder="Enter Your Message Here" required></textarea>
       
          <label for="g-recaptcha"  class="aterisk_after">Captcha</label>      
    <div class="g-recaptcha"
