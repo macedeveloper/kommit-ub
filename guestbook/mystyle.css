@@ -40,6 +40,12 @@ html{
     color: #cddbe2;
 }
 
+.homething{
+    border-style: none;
+    text-decoration: underline;
+    font-size: small;
+}
+
 .small{
     font-size: small;
     padding-left: 10px;
@@ -52,9 +58,16 @@ html{
     justify-content: center;
     font-size: large;
 }
+@media (max-width: 500px) {
+    .links a {
+        display: block;
+    }
+}
+
 
 .links {
     margin-top: 2em;
+    user-select: none;
 }
 .links a {
     text-align: center;
@@ -67,6 +80,7 @@ h3 {
     top: 2em;
     left: 23%;
     color: #29e29c;
+    margin-bottom: 2em;
 }
 
 p {
@@ -259,6 +273,7 @@ img.icon {
     background: #222122;
     color: #29e29c;
     transition: all 0.25s ease;
+    
 }
 
 .form-button:hover {

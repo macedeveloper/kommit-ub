@@ -6,6 +6,7 @@ html{
     color:#ffffff;
     background-image: linear-gradient(#222222, #000000);
     background-attachment: fixed;
+    scrollbar-color: #a3a3a3 #444444;   
 }
 
 h1{
@@ -14,18 +15,6 @@ h1{
     border: none;
     border-radius: 10px;
 }
-
-.texttext{
-    margin: 1% auto;
-    padding: 2%;
-    max-width: 70%;
-}
-
-audio{
-    margin-bottom: 20px auto;
-}
-
-
 h2{
     padding: 20px 10px 20px 10px;
     border: none;
@@ -35,6 +24,117 @@ h2{
     max-width: 70%;
 }
 
+.texttext{
+    margin: 1% auto;
+
+    max-width: 70%;
+    white-space: pre-line;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-image: linear-gradient(#222222, #000000);
+    background-attachment: fixed;
+    position: fixed;
+    height: 97%;
+    overflow: auto;
+    top: auto;
+    border: #444444;
+    border-style: solid;
+    border-radius: 10px;
+}
+.sidebar h3 {
+    background:#444444;
+    padding: 4%;
+    margin: 2%;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 10px;
+}
+.sidebar a {
+    display: block;
+    color: #a3a3a3;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 2%;
+}
+.sidebar a.workinprogress {
+    margin: 2%;
+    color: #444444;
+    text-decoration: line-through;
+}
+.sidebar a.workinprogress:hover:not(.active){
+    background: #ff000000;
+    color: #ffffff;
+}
+.sidebar a.active {
+    margin: 2%;
+    background: #886644;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.sidebar a.active:hover{
+    background-color: #d2883e
+}
+.sidebar a:hover:not(.active) {
+    margin: 2%;
+    background-color: #444444;
+    color: white;
+    border-radius: 10px;
+}
+
+div.content {
+    margin-left: 250px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        font-size: small;
+        margin-bottom: 10px;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+
+/* contctatac */
+.linkswoa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    gap: 20px;
+}
+.linkswoa a {
+    text-align: center;
+    padding: 0.8rem;
+    background-color: #444444;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.contactthing{
+    text-decoration: none;
+    color: #29e29c;
+}
+.contactthing:hover{
+    color: #ffffff;
+    background-color: #886644;
+}
 
 
 /* ZE NAVI!!!!!!!!!!!!!!!!!! */
@@ -59,57 +159,6 @@ h2{
 .navilinks:hover{
     color: #d2883e;
 }
-/* ZE NAVI!!!!!!!!!!!!!!!!!! */
-
-.pageButtons {
-    position: fixed;
-    top: 0;
-    margin: 1%;
-    right: 0;
-}
-
-/* DROPDOWN THING */
-.sybau {
-    position: fixed;
-    top: 0;
-    margin: 1%;
-}
-.dropbtn {
-    background-color: #444444;
-    color: white;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #886644;
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #444444;
-    border-radius: 10px;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown-content a {
-    color: rgb(255, 255, 255);
-    padding: 12px 10px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown-content a:hover {background-color: #727272;}
-.show {display:block;}
-/* ps: thank you we3schools for free code youre my goat i love you no homo but id still kiss you sloppy style LMFAOO ASOFAS DHJAFSJVHGSCVAS */
-/* DROPDOWN THING */
-
 
 
 /* links */
@@ -119,9 +168,6 @@ a{
 a:hover{
     color: #de8226;
 }
-/* links */
-
-
 
 /* text styles and stuff */
 .col{
@@ -147,10 +193,14 @@ a:hover{
     color: #9c96c8;
 }
 
-.large{
+summary{
     font-weight: bold;
-    font-size: large;
     color: #ffffff;
+    color: #886644;
+    cursor: pointer;
+}
+summary:hover{
+    color: #de8226;
 }
 /* text styles and stuff */
 
@@ -165,117 +215,64 @@ a:hover{
     margin-left: 4%;
     margin-right: 4%;
 }
-.audiofile{
+.category{
     display: flex;
     flex-direction: column;
     flex-basis: calc(50% - 10px);
     /* just so everyone here knows, i had to use some help for this. 
     i am not intelligent. do not mistake me as such */
 }
-.audiofile p{
+.category a{
     padding: 20px;
     border: 4px solid #444444;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    height: 100px;
+    max-height: 100px;
+    transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+
     word-break: break-word;
+    font-size: small;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.category a:hover .small{
+    color: #afafaf;
+}
+.category .bigguy{
+    font-size: x-large;
+    color: #886644;
+}
+.category a:hover{
+    background-color: #444444;
+}
+.category a:hover .bigguy{
+    color: #de8226;
+    font-weight: bold;
 }
 @media (max-width: 768px) {
-    .audiofile{
+    .category{
         flex-basis: 100%;
     }
 }
 /* column view */
 
-
-
-/* categories
-    note to self: 
-    catOne to catEight are all instrument channels
-    catNine all to catThirteen are drum channels
-*/
-.catOne{
-    font-weight: bold;
-    font-size: large;
-    color: #a8302f;
-}
-.catOne:hover{
-    color: #e15757;
-}
-h2.catOne{
-    background-color: #a82f2f71;
+.temporary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    text-align: center;
 }
 
-.catTwo{
-    font-weight: bold;
-    font-size: large;
-    color: #c75000;
-}
-.catTwo:hover{
-    color: #f88436;
-}
-h2.catTwo{
-    background-color: #c7500070;
-}
+.temporary p{
+    padding: 25px;
+    border: #444444;
+    border-style: dotted;
+    border-radius: 10px;
 
-.catThree {
-    font-weight: bold;
-    font-size: large;
-    color: #a1a100;
+    white-space: pre-line;
 }
-.catThree:hover{
-    color: #e2e232;
-}
-h2.catThree{
-    background-color: #a1a10076;
-}
-
-.catFour{
-    font-weight: bold;
-    font-size: large;
-    color: #139620;
-}
-.catFour:hover{
-    color: #2dda3e;
-}
-h2.catFour{
-    background-color: #1396207d;
-}
-
-.catFive{
-    font-weight: bold;
-    font-size: large;
-    color: #0099a1;
-}
-.catFive:hover{
-    color: #30d8e0;
-}
-h2.catFive{
-    background-color: #0099a16d;
-}
-
-.catSix{
-    font-weight: bold;
-    font-size: large;
-    color: #58599e;
-}
-.catSix:hover{
-    color: #a1a3ec;
-}
-h2.catSix{
-    background-color: #58599e74;
-}
-
-.catSeven{
-    font-weight: bold;
-    font-size: large;
-    color: #6038a5;
-}
-.catSeven:hover{
-    color: #9e76e4;
-}
-h2.catSeven{
-    background-color: #6038a57d;
-}
-
-/* categories */

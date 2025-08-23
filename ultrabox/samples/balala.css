@@ -6,6 +6,7 @@ html{
     color:#ffffff;
     background-image: linear-gradient(#272331, #000000);
     background-attachment: fixed;
+    scrollbar-color: #49495f #272331; 
 }
 
 h1{
@@ -33,6 +34,90 @@ h2{
     padding: 2%;
     margin: 1% auto;
     max-width: 70%;
+}
+
+.texttext .whitespacething{
+    white-space: pre-line;
+}
+
+/* new shit */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-image: linear-gradient(#272331, #000000);
+    background-attachment: fixed;
+    position: fixed;
+    height: 97%;
+    overflow: auto;
+    top: auto;
+    border: #49495f;
+    border-style: solid;
+    border-radius: 10px;
+}
+.sidebar h3 {
+    background:#49495f;
+    padding: 4%;
+    margin: 2%;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 10px;
+}
+.sidebar a {
+    display: block;
+    color: #a3a3a3;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 2%;
+}
+.sidebar a.workinprogress {
+    margin: 2%;
+    color: #444444;
+    text-decoration: line-through;
+}
+.sidebar a.workinprogress:hover:not(.active){
+    background: #ff000000;
+    color: #ffffff;
+}
+.sidebar a.active {
+    margin: 2%;
+    background: #49495f;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.sidebar a.active:hover{
+    background-color: #5c5ca3
+}
+.sidebar a:hover:not(.active) {
+    margin: 2%;
+    background-color: #49495f8d;
+    color: white;
+    border-radius: 10px;
+}
+
+div.content {
+    margin-left: 250px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        font-size: small;
+        margin-bottom: 10px;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
 }
 
 
@@ -124,30 +209,16 @@ a:hover{
 .col{
     color: #ff81d5;
 }
-
-.grey{
-    color: #999999;
-    margin-bottom: -12px;
-    font-size: small;
-}
-
 .small{
     color: #444444;
     font-size: small;
 }
-
 .link{
     color: #afafaf;
     font-size: small;
 }
 .link:hover{
     color: #9c96c8;
-}
-
-.large{
-    font-weight: bold;
-    font-size: large;
-    color: #ffffff;
 }
 /* text styles and stuff */
 
@@ -171,21 +242,12 @@ a:hover{
 }
 .audiofile p{
     padding: 20px;
-    border: 4px solid #444444;
+    border: 4px solid #49495f;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     word-break: break-word;
-}
-p.newAddition{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    word-break: break-word;
-    border-image: linear-gradient(to bottom, #4d6173 0%, #2b2447 100%) 1;
-    border-width: 4px;
-    border-style: solid;
 }
 @media (max-width: 768px) {
     .audiofile{
@@ -194,95 +256,48 @@ p.newAddition{
 }
 /* column view */
 
+/* category */
+.category{
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(50% - 10px);
+    /* just so everyone here knows, i had to use some help for this. 
+    i am not intelligent. do not mistake me as such */
+}
+.category a{
+    padding: 20px;
+    border: 4px solid #49495f;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100px;
+    max-height: 100px;
+    transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
 
-
-/* categories
-    note to self: 
-    catOne to catEight are all instrument channels
-    catNine all to catThirteen are drum channels
-*/
-.catOne{
+    word-break: break-word;
+    font-size: small;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.category a:hover .small{
+    color: #afafaf;
+}
+.category .bigguy{
+    font-size: x-large;
+    color: #886644;
+}
+.category a:hover{
+    background-color: #49495f;
+}
+.category a:hover .bigguy{
+    color: #de8226;
     font-weight: bold;
-    font-size: large;
-    color: #932253;
 }
-.catOne:hover{
-    color: #e5689e;
+@media (max-width: 768px) {
+    .category{
+        flex-basis: 100%;
+    }
 }
-h2.catOne{
-    background-color: #9322536d;
-}
-
-.catTwo{
-    font-weight: bold;
-    font-size: large;
-    color: #6f6f6f;
-}
-.catTwo:hover{
-    color: #bebebe;
-}
-h2.catTwo{
-    background-color: #6f6f6f75;
-}
-
-.catThree{
-    font-weight: bold;
-    font-size: large;
-    color: #996633;
-}
-.catThree:hover{
-    color: #deb58b;
-}
-h2.catThree{
-    background-color: #9966337b;
-}
-
-.catFour{
-    font-weight: bold;
-    font-size: large;
-    color: #4a6d8f;
-}
-.catFour:hover{
-    color: #99b7d4;
-}
-h2.catFour{
-    background-color: #4a6d8f6e;
-}
-
-.catFive{
-    font-weight: bold;
-    font-size: large;
-    color: #7a4f9a;
-}
-.catFive:hover{
-    color: #bb94d9;
-}
-h2.catFive{
-    background-color: #7a4f9a6e;
-}
-
-.catSix{
-    font-weight: bold;
-    font-size: large;
-    color: #607837;
-}
-.catSix:hover{
-    color: #acc582;
-}
-h2.catSix{
-    background-color: #60783776;
-}
-
-.catSeven{
-    font-weight: bold;
-    font-size: large;
-    color: #00ff91;
-}
-.catSeven:hover{
-    color: #a5ffb7;
-}
-h2.catSeven{
-    background-color: #00704576;
-}
-
-/* categories */
+/* category */
