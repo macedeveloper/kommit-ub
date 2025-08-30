@@ -15,6 +15,7 @@
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <script src="/ultrabox/pauseAudio.js"></script>
+    <script src="/ultrabox/copylink.js"></script>
 
 </head>
 
@@ -40,7 +41,7 @@
     <a href="/ultrabox/samples/megaman-zero.html">megaman zero</a>
     <a class="workinprogress" title="still under construction!" href="/ultrabox/samples/vocals.html">vocals and stuff</a>
     <a class="workinprogress" title="still under construction!" href="/ultrabox/">mario kart ds</a>
-    <a class="workinprogress" title="still under construction!" href="/ultrabox/">deltarune</a>
+    <a href="/ultrabox/samples/deltarune.html" href="/ultrabox/">deltarune</a>
 </main>
 
 <body>
@@ -58,7 +59,7 @@
         <div class="stupidfuckingcontainer">
 <div class="audiofile">
                 <p>Acoustic Bass
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/acoustic%20bass.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/acoustic%20bass.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/acoustic%20bass.wav">
                     </audio>
@@ -67,7 +68,7 @@
             
             <div class="audiofile">
                 <p>Brass
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/brass.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/brass.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/brass.wav">
                     </audio>
@@ -76,7 +77,7 @@
             
             <div class="audiofile">
                 <p>Crystal Fx
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/crystal%20fx.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/crystal%20fx.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/crystal%20fx.wav">
                     </audio>
@@ -85,7 +86,7 @@
             
             <div class="audiofile">
                 <p>Distorted Guitar
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/distorted%20guitar.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/distorted%20guitar.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/distorted%20guitar.wav">
                     </audio>
@@ -94,7 +95,7 @@
             
             <div class="audiofile">
                 <p>Fretless Bass
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/fretless%20bass.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/fretless%20bass.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/fretless%20bass.wav">
                     </audio>
@@ -103,7 +104,7 @@
             
             <div class="audiofile">
                 <p>Glockenspiel
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/glockenspiel.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/glockenspiel.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/glockenspiel.wav">
                     </audio>
@@ -112,7 +113,7 @@
             
             <div class="audiofile">
                 <p>Harp
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/harp.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/harp.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/harp.wav">
                     </audio>
@@ -121,7 +122,7 @@
             
             <div class="audiofile">
                 <p>Idk
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/idk.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/idk.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/idk.wav">
                     </audio>
@@ -130,7 +131,7 @@
             
             <div class="audiofile">
                 <p>Jazz Guitar
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/jazz%20guitar.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/jazz%20guitar.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/jazz%20guitar.wav">
                     </audio>
@@ -139,7 +140,7 @@
             
             <div class="audiofile">
                 <p>Orchestra Hit
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/orchestra%20hit.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/orchestra%20hit.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/orchestra%20hit.wav">
                     </audio>
@@ -148,7 +149,7 @@
             
             <div class="audiofile">
                 <p>Piano
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/piano.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/piano.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/piano.wav">
                     </audio>
@@ -157,7 +158,7 @@
             
             <div class="audiofile">
                 <p>Saxophone
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/saxophone.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/saxophone.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/saxophone.wav">
                     </audio>
@@ -166,7 +167,7 @@
             
             <div class="audiofile">
                 <p>Slap Bass
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/slap%20bass.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/slap%20bass.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/slap%20bass.wav">
                     </audio>
@@ -175,7 +176,7 @@
             
             <div class="audiofile">
                 <p>Steel Drums
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/steel%20drums.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/steel%20drums.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/steel%20drums.wav">
                     </audio>
@@ -184,7 +185,7 @@
             
             <div class="audiofile">
                 <p>Trombone
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/trombone.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/trombone.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/trombone.wav">
                     </audio>
@@ -193,7 +194,7 @@
             
             <div class="audiofile">
                 <p>Tuba
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/tuba.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/tuba.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/tuba.wav">
                     </audio>
@@ -202,7 +203,7 @@
             
             <div class="audiofile">
                 <p>Violin
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/violin.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/violin.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/violin.wav">
                     </audio>
@@ -211,7 +212,7 @@
             
             <div class="audiofile">
                 <p>Xylophone
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/xylophone.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/xylophone.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/super%20mario%20world/xylophone.wav">
                     </audio>

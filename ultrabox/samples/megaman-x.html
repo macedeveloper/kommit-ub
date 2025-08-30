@@ -15,6 +15,7 @@
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <script src="/ultrabox/pauseAudio.js"></script>
+    <script src="/ultrabox/copylink.js"></script>
 
 </head>
 
@@ -40,7 +41,7 @@
     <a href="/ultrabox/samples/megaman-zero.html">megaman zero</a>
     <a class="workinprogress" title="still under construction!" href="/ultrabox/samples/vocals.html">vocals and stuff</a>
     <a class="workinprogress" title="still under construction!" href="/ultrabox/">mario kart ds</a>
-    <a class="workinprogress" title="still under construction!" href="/ultrabox/">deltarune</a>
+    <a href="/ultrabox/samples/deltarune.html" href="/ultrabox/">deltarune</a>
 </main>
 
 <body>
@@ -58,7 +59,7 @@
         <div class="stupidfuckingcontainer">
             <div class="audiofile">
                 <p>Acoustic Guitar
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/acoustic%20guitar.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/acoustic%20guitar.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/acoustic%20guitar.wav">
                     </audio>
@@ -67,7 +68,7 @@
             
             <div class="audiofile">
                 <p>Distorted Guitar
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/distorted%20guitar.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/distorted%20guitar.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/distorted%20guitar.wav">
                     </audio>
@@ -76,7 +77,7 @@
             
             <div class="audiofile">
                 <p>Orchestral Hit
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/orchestral%20hit.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/orchestral%20hit.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/orchestral%20hit.wav">
                     </audio>
@@ -85,7 +86,7 @@
             
             <div class="audiofile">
                 <p>Organ
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/organ.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/organ.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/organ.wav">
                     </audio>
@@ -94,7 +95,7 @@
             
             <div class="audiofile">
                 <p>Overdrive Guitar
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/overdrive%20guitar.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/overdrive%20guitar.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/overdrive%20guitar.wav">
                     </audio>
@@ -103,7 +104,7 @@
             
             <div class="audiofile">
                 <p>Percussion 1
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%201.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%201.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%201.wav">
                     </audio>
@@ -112,7 +113,7 @@
             
             <div class="audiofile">
                 <p>Percussion 2
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%202.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%202.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%202.wav">
                     </audio>
@@ -121,7 +122,7 @@
             
             <div class="audiofile">
                 <p>Percussion 3
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%203.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%203.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%203.wav">
                     </audio>
@@ -130,7 +131,7 @@
             
             <div class="audiofile">
                 <p>Percussion 4
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%204.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%204.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%204.wav">
                     </audio>
@@ -139,7 +140,7 @@
             
             <div class="audiofile">
                 <p>Percussion 5
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%205.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%205.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%205.wav">
                     </audio>
@@ -148,7 +149,7 @@
             
             <div class="audiofile">
                 <p>Percussion 6
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%206.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%206.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%206.wav">
                     </audio>
@@ -157,7 +158,7 @@
             
             <div class="audiofile">
                 <p>Percussion 7
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%207.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%207.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%207.wav">
                     </audio>
@@ -166,7 +167,7 @@
             
             <div class="audiofile">
                 <p>Percussion 8
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%208.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%208.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%208.wav">
                     </audio>
@@ -175,7 +176,7 @@
             
             <div class="audiofile">
                 <p>Percussion 9
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%209.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%209.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/percussion%209.wav">
                     </audio>
@@ -184,7 +185,7 @@
             
             <div class="audiofile">
                 <p>Reverse Cymbal
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/reverse%20cymbal.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/reverse%20cymbal.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/reverse%20cymbal.wav">
                     </audio>
@@ -193,7 +194,7 @@
             
             <div class="audiofile">
                 <p>Saw Wave
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/saw%20wave.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/saw%20wave.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/saw%20wave.wav">
                     </audio>
@@ -202,7 +203,7 @@
             
             <div class="audiofile">
                 <p>Slap Bass
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/slap%20bass.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/slap%20bass.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/slap%20bass.wav">
                     </audio>
@@ -211,7 +212,7 @@
             
             <div class="audiofile">
                 <p>Square Wave
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/square%20wave.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/square%20wave.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/square%20wave.wav">
                     </audio>
@@ -220,7 +221,7 @@
             
             <div class="audiofile">
                 <p>Strings
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/strings.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/strings.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/strings.wav">
                     </audio>
@@ -229,7 +230,7 @@
             
             <div class="audiofile">
                 <p>Synth Bass
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/synth%20bass.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/synth%20bass.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/synth%20bass.wav">
                     </audio>
@@ -238,7 +239,7 @@
             
             <div class="audiofile">
                 <p>Synth Brass
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/synth%20brass.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/synth%20brass.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/synth%20brass.wav">
                     </audio>
@@ -247,7 +248,7 @@
             
             <div class="audiofile">
                 <p>Synth Lead 2
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/synth%20lead%202.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/synth%20lead%202.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/synth%20lead%202.wav">
                     </audio>
@@ -256,7 +257,7 @@
             
             <div class="audiofile">
                 <p>Synth Lead
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/synth%20lead.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/synth%20lead.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/synth%20lead.wav">
                     </audio>
@@ -265,7 +266,7 @@
             
             <div class="audiofile">
                 <p>Vibraphone
-                    <span class="link">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/vibraphone.wav</span>
+                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/vibraphone.wav</span>
                     <audio controls> <source type="audio/wav" preload="none"
                         src="https://file.garden/Z5LWNmBsKDyHFNpn/megaman%20X/vibraphone.wav">
                     </audio>

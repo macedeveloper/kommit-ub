@@ -218,9 +218,56 @@ a:hover{
     font-size: small;
 }
 .link:hover{
-    color: #9c96c8;
+    color: #7d71ff;
+    cursor: pointer;
 }
 /* text styles and stuff */
+
+/* i love you so much we3 schools */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+/* i love you so much we3 schools */
 
 
 
@@ -295,6 +342,8 @@ a:hover{
     color: #de8226;
     font-weight: bold;
 }
+/* yea no i really tried to add the image background thing but im not experienced enough for it :/
+that and im too lazy to figure it out right now */
 @media (max-width: 768px) {
     .category{
         flex-basis: 100%;

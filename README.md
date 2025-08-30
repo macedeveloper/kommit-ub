@@ -1,4 +1,6 @@
 # latest additions:
+- ultrabox remodel
+- /guestbook
 - added depression (stacking effect)
 - /log : yap
 - some new splash text and some new favourite songs
@@ -14,12 +16,11 @@ by the way hi aster and possibly also hyphen
 
 anyways uh
 
-i made this so i have somewhere to put my shit onto without worrying about limits and have ultimate customisability at the cost of server-dependent functions such as sending messages or images
-i'll figure it out though, there might be a way
+i made this so i have somewhere to put my shit onto without worrying about limits (fuck you carrd) and have ultimate customisability at the cost of my braincells and dynamic website stuff (aka the really cool shit, i still want strawpages drawing thing </3)
 
-also html is lowkey cool?? pretty simple too, not that bad and soul sucking unlike wordpress (dear god)
+also html is lowkey cool?? pretty simple too, not that soul sucking unlike wordpress (dear god)
 
-updates whenever i want to
+updates whenever i want to(TM)
 mostly for splash texts but sometimes i update UB:SA (ultrabox sample archive, its tiring to type it all out) as well
 
 # what to expect here:

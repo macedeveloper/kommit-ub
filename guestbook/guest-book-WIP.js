@@ -18,7 +18,7 @@ function fetchGuestBook_Entries() {
 
             // Add 5 entries to main page
             // ie; iterate 5 times
-            for (var i = 0; i < 5 && i < sortedInput.length; i++) {
+            for (var i = 0; i < 7 && i < sortedInput.length; i++) {
 
                 // Split timestamp data
                 var splitTime = sortedInput[i].Timestamp.split(' ')[0];
@@ -50,7 +50,6 @@ function fetchGuestBook_Entries() {
                     <p>${SantizeResponses} </p>
                 </div>
             </div>`
-
             }
 
 
@@ -132,7 +131,7 @@ var subscribeForm = document.getElementById("SendForm")
 /// Profanity Filter
 
 // Enter the words to be not allowed in form submission for Profanity Filter
-var swear_words_arr = new Array("tranny", "troon", "nigga", "niggas", "nigger", "niggers", "niglet");
+var swear_words_arr = new Array("tranny", "troon", "nigga", "niggas", "nigger", "niggers", "niglet", "retard", "retarded", "retards", "faggot", "faggy", "faggots");
 
 var swear_alert_arr = new Array;
 var swear_alert_count = 0;
@@ -166,7 +165,7 @@ function validate_text() {
         // Show the user this message + the illegal character they used.
         subscribeForm.innerHTML = `	<a class="close" onclick="ResetSwearForm();" href="#">&times;</a>
 <h1  style="text-align: center;
-    margin-top: 2em;">Your message will not be added! \nThe following illegal words were found:</h1> <p>${alert_text}</p>`
+    margin-top: 2em;">your entry will not be logged! \nyou cannot write these words:</h1> <p>${alert_text}</p>`
         // Fade message in
         subscribeForm.setAttribute("style", "-webkit-animation: fadeIn 1s; animation: fadeIn 1s;  animation-fill-mode: forwards;");
 

@@ -48,7 +48,9 @@ function whatthefuck() {
     // snarky, pebie, tears in the rain, innocence, moogcity, windowbreaker, precipice, shop nico
     //
     //
-    //
+    // okay wait i can probably optimise the code here a bit one sec
+    // i fucking forgot i kinda know PYTHON not javascript :sob:
+    // cant stop yawning lowkey
 
 
     var rSongs = Math.floor(Math.random() * songs.length);
