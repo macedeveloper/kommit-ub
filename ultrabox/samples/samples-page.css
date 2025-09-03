@@ -6,8 +6,8 @@ html {
     color: #ffffff;
     background: #16131b;
     background-image: url('bg.svg');
-    background-position: center;
     background-attachment: fixed;
+    background-position: center;
     scrollbar-color: #49495f #272331;
 }
 
