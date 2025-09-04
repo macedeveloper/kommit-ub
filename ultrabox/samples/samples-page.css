@@ -330,8 +330,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin: auto min(64px, 5vw);
 }
 
 .audiofile {
@@ -340,6 +339,12 @@ a:hover {
     flex-basis: calc(50% - 10px);
     /* just so everyone here knows, i had to use some help for this. 
     i am not intelligent. do not mistake me as such */
+}
+
+@media (max-width: 768px) {
+    .audiofile {
+        flex-basis: 100%;
+    }
 }
 
 .audiofile p {
@@ -351,12 +356,6 @@ a:hover {
     flex-direction: column;
     gap: 10px;
     word-break: break-word;
-}
-
-@media (max-width: 768px) {
-    .audiofile {
-        flex-basis: 100%;
-    }
 }
 
 /* column view */
@@ -430,3 +429,161 @@ audio {
     width: 100%;
 }
 /* audio */
+
+
+
+
+
+/* sexyplayer */
+
+.stupidfuckingcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: unset;
+    gap: 20px;
+    margin: auto min(64px, 5vw);
+}
+
+.sexyplayer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+
+    background: #16131A;
+    border: 4px solid #494A5F;
+    border-radius: 10px;
+
+    flex-basis: calc(50% - min(64px, 5vw) - 20px);
+    flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+    .sexyplayer-container {
+        flex-basis: 100%;
+    }
+}
+
+div.sexyplayer-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+}
+
+p.sexyplayer-title {
+    font-family: "Noto Sans", "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+
+p.sexyplayer-tag {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+    margin: 0;
+
+    /* min-width: 32px; */
+    min-height: 32px;
+
+    background: #494A5F;
+    border-radius: 5px;
+
+    font-family: "Noto Sans", "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+p.sexyplayer-link {
+    margin: 0;
+
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: start;
+    word-break: break-all;
+
+    color: #494A5F;
+}
+
+div.sexyplayer-buttons {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+
+    padding: 0px;
+    gap: 10px;
+}
+
+div.sexyplayer-buttons a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 160px;
+    height: 40px;
+
+    background: #494A5F;
+    transition: background-color 0.2s ease;
+    border-radius: 10px;
+
+    color: white;
+    text-decoration: none;
+
+    font-family: "Noto Sans", "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    user-select: none;
+}
+div.sexyplayer-buttons a:hover {
+    background: #2b2c38;
+    cursor: pointer;
+}
+
+.sexyplayer-spacer {
+    /* order: 2;
+    align-self: stretch; */
+    flex-grow: 1;
+}
+
+div.sexyplayer-buttons a.sexyplayer-btn-play,
+div.sexyplayer-buttons a.sexyplayer-btn-stop {
+    font-size: 32px;
+    min-width: 40px;
+}
+
+div.sexyplayer-buttons a.sexyplayer-btn-play {
+    background: #F0544F;
+}
+div.sexyplayer-buttons a.sexyplayer-btn-play:hover {
+    background: #8e322f;
+}
+
+div.sexyplayer-buttons a.sexyplayer-btn-copylink {
+    background: #4F7DF0;
+}
+div.sexyplayer-buttons a.sexyplayer-btn-copylink:hover {
+    background: #2f4a8e;
+}
+div.sexyplayer-buttons a.sexyplayer-btn-copylink.sexyplayer-success {
+    background: #57C449;
+}
+
+div.sexyplayer-buttons a.sexyplayer-btn-download {
+    background: #57C449;
+}
+div.sexyplayer-buttons a.sexyplayer-btn-download:hover {
+    background: #33742b;
+}

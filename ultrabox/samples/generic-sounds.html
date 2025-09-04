@@ -13,9 +13,12 @@
     <link href="samples-page.css" rel="stylesheet">
 
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <script src="/ultrabox/pauseAudio.js"></script>
-    <script src="/ultrabox/copylink.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
 </head>
 
@@ -62,22 +65,52 @@
 
         <div class="stupidfuckingcontainer">
 
-            <div class="audiofile">
-                <p>Cymatics - San Holo 2 [C]
-                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/Cymatics%20-%20San%20Holo%20One%20Shot%202%20-%20C.wav</span>
-                    <audio controls> <source type="audio/wav" preload="none"
-                        src="https://file.garden/Z5LWNmBsKDyHFNpn/Cymatics%20-%20San%20Holo%20One%20Shot%202%20-%20C.wav">
-                    </audio>
+
+            <div class="sexyplayer-container" id="sp1">
+                <div class="sexyplayer-title">
+                    <p class="sexyplayer-title">Cymatics - San Holo 2</p>
+                    <p class="sexyplayer-tag">0:04</p>
+                    <p class="sexyplayer-tag">C</p>
+                </div>
+                <p class="sexyplayer-link">
+                    https://file.garden/Z5LWNmBsKDyHFNpn/Cymatics%20-%20San%20Holo%20One%20Shot%202%20-%20C.wav
                 </p>
+                <audio controls> <source type="audio/wav" preload="none"
+                    src="https://file.garden/Z5LWNmBsKDyHFNpn/Cymatics%20-%20San%20Holo%20One%20Shot%202%20-%20C.wav">
+                </audio>
+                <div class="sexyplayer-buttons">
+                    <a class="sexyplayer-btn-play" onclick="preview('sp1')"><i class="bi bi-play-fill"></i></a>
+                    <a class="sexyplayer-btn-stop" onclick="stop_preview()"><i class="bi bi-stop-fill"></i></a>
+                    <div class="sexyplayer-spacer"></div>
+                    <a class="sexyplayer-btn-copylink" onclick="copy_link('sp1')"><i class="bi bi-clipboard"></i> Copy link</a>
+                    <a class="sexyplayer-btn-download" onclick="download_file('sp1')"><i class="bi bi-download"></i> Download</a>
+                </div>
+                <script src="sexyplayer.js"></script>
             </div>
-            <div class="audiofile">
-                <p>Cymatics - Odyssey Synth 6 [C#]
-                    <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/Cymatics%20-%20Odyssey%20Synth%20One%20Shot%206%20-%20C%23.wav</span>
-                    <audio controls> <source type="audio/wav" preload="none"
-                        src="https://file.garden/Z5LWNmBsKDyHFNpn/Cymatics%20-%20Odyssey%20Synth%20One%20Shot%206%20-%20C%23.wav">
-                    </audio>
+
+            <div class="sexyplayer-container"id="sp2">
+                <div class="sexyplayer-title">
+                    <p class="sexyplayer-title">Cymatics - Odyssey Synth 6
+                    <p class="sexyplayer-tag">0:01</p>
+                    <p class="sexyplayer-tag">C#</p>
+                </div>
+                <p class="sexyplayer-link">
+                    https://file.garden/Z5LWNmBsKDyHFNpn/Cymatics%20-%20Odyssey%20Synth%20One%20Shot%206%20-%20C%23.wav
                 </p>
+                <audio> <source type="audio/wav" preload="none"
+                    src="https://file.garden/Z5LWNmBsKDyHFNpn/Cymatics%20-%20Odyssey%20Synth%20One%20Shot%206%20-%20C%23.wav">
+                </audio>
+                <div class="sexyplayer-buttons">
+                    <a class="sexyplayer-btn-play" onclick="preview('sp2')"><i class="bi bi-play-fill"></i></a>
+                    <a class="sexyplayer-btn-stop" onclick="stop_preview('sp2')"><i class="bi bi-stop-fill"></i></a>
+                    <div class="sexyplayer-spacer"></div>
+                    <a class="sexyplayer-btn-copylink" onclick="copy_link('sp2')"><i class="bi bi-clipboard"></i> Copy link</a>
+                    <a class="sexyplayer-btn-download" onclick="download_file('sp2')"><i class="bi bi-download"></i> Download</a>
+                </div>
+                <script src="sexyplayer.js"></script>
             </div>
+
+            
             <div class="audiofile">
                 <p>Cymatics - Odyssey Synth 9 [E]
                     <span class="link" onclick="copy()">https://file.garden/Z5LWNmBsKDyHFNpn/Cymatics%20-%20Odyssey%20Synth%20One%20Shot%209%20-%20E.wav</span>
