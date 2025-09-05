@@ -63,9 +63,9 @@
             </p>
         </header>
 
-        <div class="stupidfuckingcontainer">
+        <div class="stupidfuckingcontainer" id="stupidfuckingcontainer">
 
-
+            <!--
             <div class="sexyplayer-container" id="sp1">
                 <div class="sexyplayer-title">
                     <p class="sexyplayer-title">Cymatics - San Holo 2</p>
@@ -85,7 +85,6 @@
                     <a class="sexyplayer-btn-copylink" onclick="copy_link('sp1')"><i class="bi bi-clipboard"></i> Copy link</a>
                     <a class="sexyplayer-btn-download" onclick="download_file('sp1')"><i class="bi bi-download"></i> Download</a>
                 </div>
-                <script src="sexyplayer.js"></script>
             </div>
 
             <div class="sexyplayer-container"id="sp2">
@@ -107,7 +106,6 @@
                     <a class="sexyplayer-btn-copylink" onclick="copy_link('sp2')"><i class="bi bi-clipboard"></i> Copy link</a>
                     <a class="sexyplayer-btn-download" onclick="download_file('sp2')"><i class="bi bi-download"></i> Download</a>
                 </div>
-                <script src="sexyplayer.js"></script>
             </div>
 
             
@@ -191,6 +189,7 @@
                     </audio>
                 </p>
             </div>
+            -->
         </div>
 
         <footer>
@@ -201,6 +200,91 @@
         </footer>
 
     </div>
+
+    <script src="sexyplayer.js"></script>
+    <script>
+        // Sample data array (you can use parseLegacySamples() to generate this)
+        const samples = [
+            {
+                "name": "Cymatics - San Holo 2",
+                "length": "0:04",
+                "tune": "C",
+                "link": "https://file.garden/Z5LWNmBsKDyHFNpn/Cymatics%20-%20San%20Holo%20One%20Shot%202%20-%20C.wav"
+            },
+            {
+                "name": "Cymatics - Odyssey Synth 6",
+                "length": "0:01",
+                "tune": "C#",
+                "link": "https://file.garden/Z5LWNmBsKDyHFNpn/Cymatics%20-%20Odyssey%20Synth%20One%20Shot%206%20-%20C%23.wav"
+            },
+            {
+                "name": "Cymatics - Odyssey Synth 9",
+                "length": "0:01",
+                "tune": "E",
+                "link": "https://file.garden/Z5LWNmBsKDyHFNpn/Cymatics%20-%20Odyssey%20Synth%20One%20Shot%209%20-%20E.wav"
+            },
+            {
+                "name": "Cymatics - Cartoon Bell",
+                "length": "0:00",
+                "tune": "C",
+                "link": "https://file.garden/Z5LWNmBsKDyHFNpn/Cymatics%20-%20Cartoon%20Bell%20One%20Shot%20-%20C.wav"
+            },
+            {
+                "name": "Cymatics - Grandmother Keys",
+                "length": "0:02",
+                "tune": "C",
+                "link": "https://file.garden/Z5LWNmBsKDyHFNpn/Cymatics%20-%20Grandmother%20Keys%20One%20Shot%20-%20C.wav"
+            },
+            {
+                "name": "Crash 1",
+                "length": "0:02",
+                "tune": null,
+                "link": "https://file.garden/Z5LWNmBsKDyHFNpn/Crash%201.wav"
+            },
+            {
+                "name": "Reverse Crash 1",
+                "length": "0:01",
+                "tune": null,
+                "link": "https://file.garden/Z5LWNmBsKDyHFNpn/Reverse%20Crash%201.wav"
+            },
+            {
+                "name": "House Kick 1",
+                "length": "0:00",
+                "tune": null,
+                "link": "https://file.garden/Z5LWNmBsKDyHFNpn/KSHMR%20House%20Kick%2016.wav"
+            },
+            {
+                "name": "Hard Snare 1",
+                "length": "0:00",
+                "tune": null,
+                "link": "https://file.garden/Z5LWNmBsKDyHFNpn/KSHMR%20Hard%20Snare%2005.wav"
+            },
+            {
+                "name": "Slide Whistle Down",
+                "length": "0:01",
+                "tune": null,
+                "link": "https://file.garden/Z5LWNmBsKDyHFNpn/generic/slide%20whistle%20down.wav"
+            },
+            {
+                "name": "Slide Whistle Full",
+                "length": "0:02",
+                "tune": null,
+                "link": "https://file.garden/Z5LWNmBsKDyHFNpn/generic/slide%20whistle%20full.wav"
+            },
+            {
+                "name": "Slide Whistle Up",
+                "length": "0:01",
+                "tune": null,
+                "link": "https://file.garden/Z5LWNmBsKDyHFNpn/generic/slide%20whistle%20up.wav"
+            }
+        ];
+
+        // Generate players when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            generateAudioPlayers(samples);
+        });
+    </script>
+
 </body>
 
 </html>

@@ -17,6 +17,9 @@
     <script src="/ultrabox/pauseAudio.js"></script>
     <script src="/ultrabox/copylink.js"></script>
 
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
 </head>
 
 <main class="sidebar">
@@ -56,7 +59,7 @@
             </p>
         </header>
 
-        <div class="stupidfuckingcontainer">
+        <div class="stupidfuckingcontainer" id="stupidfuckingcontainer">
             <div class="audiofile"> 
                 <p><br>Ruins Flute (Added by Hyphen)<br>
                 <span class="link" onclick="copy()">https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Ruins%20Flute.wav</span>
@@ -932,6 +935,307 @@
         </footer>
     </div>
     <!-- made using my own python script :D -->
+
+    <script src="sexyplayer.js"></script>
+    <script>
+        // Sample data array (you can use parseLegacySamples() to generate this)
+        const samples = [
+    {
+        "name": "Ruins Flute (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Ruins%20Flute.wav"
+    },
+    {
+        "name": "Megalovania Orchestral Hit (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/MEGALOVANIA%20ORCH%20HIT.wav"
+    },
+    {
+        "name": "Death by Glamour Rhodes (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Glamour%20Rhodes%2B1.wav"
+    },
+    {
+        "name": "Timpani (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Timpani.wav"
+    },
+    {
+        "name": "Disco Snare (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Disco%20Snare.wav"
+    },
+    {
+        "name": "Sans Cowbell (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Sans%20Cowbell.wav"
+    },
+    {
+        "name": "Battle Against A True Hero Bells [C7] (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Undying%20Bells%20C7(L).wav"
+    },
+    {
+        "name": "Piano (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Piano.wav"
+    },
+    {
+        "name": "Super Saw (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Super%20Saw.wav"
+    },
+    {
+        "name": "Glock (what) (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Glock.wav"
+    },
+    {
+        "name": "Death by Glamour Grand Piano (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Glamour%20Grand.wav"
+    },
+    {
+        "name": "Barrier (why indeed, hyphen) (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Barrier.wav"
+    },
+    {
+        "name": "Snowdin Vibraphone (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Snowdin%20Vibraphone.wav"
+    },
+    {
+        "name": "Heartache Oboe (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Heartache%20Oboe.wav"
+    },
+    {
+        "name": "Reunited Pizzicato (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Reunited%20Pizzicato.wav"
+    },
+    {
+        "name": "Power Snare (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Power%20Snare.wav"
+    },
+    {
+        "name": "Strings (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Strings.wav"
+    },
+    {
+        "name": "Lofi Snare (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Lofi%20Snare.wav"
+    },
+    {
+        "name": "Ghost Saxophone (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Ghost%20Saxophone.wav"
+    },
+    {
+        "name": "Amalgam Lead (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Amalgam%20Lead.wav"
+    },
+    {
+        "name": "Amalgam Noise (maybe there will be a use for this yknow!) (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Amalgam%20Noise.wav"
+    },
+    {
+        "name": "Strong Snare (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Strong%20Snare.wav"
+    },
+    {
+        "name": "Nightmare Bass (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Nightmare%20Bass.wav"
+    },
+    {
+        "name": "Ballad Snare (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Ballad%20Snare.wav"
+    },
+    {
+        "name": "Showtime Clap (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Showtime%20Clap.wav"
+    },
+    {
+        "name": "Tuba (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Tuba.wav"
+    },
+    {
+        "name": "Strong Kick (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Strong%20Kick.wav"
+    },
+    {
+        "name": "Strong Hi Hat (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Strong%20Hi%20Hat.wav"
+    },
+    {
+        "name": "Reunited Sax (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Reunited%20Sax.wav"
+    },
+    {
+        "name": "Ghost Bass (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Ghost%20Bass%20(EB%20Bass).wav"
+    },
+    {
+        "name": "Reuinted Piano (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Reunited%20Piano.wav"
+    },
+    {
+        "name": "Reunited Rhodes (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Reunited%20Rhodes.wav"
+    },
+    {
+        "name": "Ghost Fight Trumpet (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Ghost%20Fight%20Trumpet.wav"
+    },
+    {
+        "name": "Harp (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Harp.wav"
+    },
+    {
+        "name": "909 Snare (Added by Hyphen)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/909%20Snare.wav"
+    },
+    {
+        "name": " sans. [C] (Added by Hyphen)  ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/SANS.wav"
+    },
+    {
+        "name": " Fallen Down Pan Flute [C] (Added by Hyphen)  ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/ZMQ0Om5nmTe-x2hq/undertale%20soundfont/Fallen%20Down%20Pan%20Flute.wav"
+    },
+    {
+        "name": " Vibraphone [C]  ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/Z5LWNmBsKDyHFNpn/022%20Vibraphone%20-%20True%20Vibe%20C4(R).wav"
+    },
+    {
+        "name": " Vibrato Square [???]  ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/Z5LWNmBsKDyHFNpn/046%20Honky%20Tonk%20-%20honkytonkpiano%20hi(R).wav"
+    },
+    {
+        "name": " Acoustic Bass [C#]  ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/Z5LWNmBsKDyHFNpn/054%20Acoustic%20Bass%202%20-%20Acoustic%20Bass%20C%233.wav"
+    },
+    {
+        "name": " Tubular Bell [C]  ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/Z5LWNmBsKDyHFNpn/035%20Tubular%20Bells%20-%20Tubular%20Bell%20C5(L)-1.wav"
+    },
+    {
+        "name": " Picked Bass [C]  ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/Z5LWNmBsKDyHFNpn/079%20Picked%20Bass%20-%20Picked%20Bass%20C3.wav"
+    },
+    {
+        "name": " Celesta [C]  ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/Z5LWNmBsKDyHFNpn/033%20Celesta%20-%20Celesta%20C%204(L).wav"
+    },
+    {
+        "name": " Ooh Choir [C]  ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/Z5LWNmBsKDyHFNpn/100%20Ooh%20Choir%20-%20LC%20AH%20C4%20F-L.wav"
+    },
+    {
+        "name": " Baritone Sax [C]  ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/Z5LWNmBsKDyHFNpn/015%20Baritone%20Sax%20-%20BariSax2%20p%20C3(L).wav"
+    },
+    {
+        "name": " Mellow Piano [???]  ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/Z5LWNmBsKDyHFNpn/036%20Mellow%20Piano%20-%20Piano%201.wav"
+    },
+    {
+        "name": "Overdriven Guitar (huh wonder where this is from)   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/Z5LWNmBsKDyHFNpn/100%20Over.%20Gt.%20-%20Overdriven%20Guitar.wav"
+    },
+    {
+        "name": "Venus [???]   ",
+        "length": "0:00",
+        "tune": null,
+        "link": "https://file.garden/Z5LWNmBsKDyHFNpn/036%20Venus%20-%20Venus.wav"
+    }
+];
+
+        // Generate players when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            generateAudioPlayers(samples);
+        });
+    </script>
+
 </body>
 
 </html>
